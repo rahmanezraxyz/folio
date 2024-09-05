@@ -1,8 +1,9 @@
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Privacy / Regulations',
+	'AI / Privacy',
+	'Privacy / Compliance',
+	'Privacy / Digital Policy',
+	'B2B / Privacy',
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {

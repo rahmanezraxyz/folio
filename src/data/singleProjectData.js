@@ -8,32 +8,30 @@ import Image6 from '../images/ui-project-2.jpg';
 // Import icons
 import {
 	FiFacebook,
-	FiInstagram,
 	FiLinkedin,
 	FiTwitter,
-	FiYoutube,
 } from 'react-icons/fi';
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
+		title: 'Data Privacy Papers',
+		publishDate: 'Sep 4, 2024',
+		tags: 'Privacy / Regulations',
 	},
 	ProjectImages: [
 		{
 			id: 1,
-			title: 'Kabul Project Management UI',
+			title: 'GDPR: General Data Protection Regulation Overview',
 			img: Image1,
 		},
 		{
 			id: 2,
-			title: 'Kabul Project Management UI',
+			title: 'CCPA: California Consumer Privacy Act Explained',
 			img: Image2,
 		},
 		{
 			id: 3,
-			title: 'Kabul Project Management UI',
+			title: 'EU AI Act: Understanding its Impact on Data Privacy',
 			img: Image3,
 		},
 	],
@@ -43,12 +41,12 @@ export const singleProjectData = {
 			{
 				id: 1,
 				title: 'Name',
-				details: 'Company Ltd',
+				details: 'Business Information Coalition',
 			},
 			{
 				id: 2,
 				title: 'Services',
-				details: 'UI Design & Frontend Development',
+				details: 'Research & Policy Development',
 			},
 			{
 				id: 3,
@@ -63,17 +61,17 @@ export const singleProjectData = {
 		],
 		ObjectivesHeading: 'Objective',
 		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+			'The Business Information Coalition (BIC) aims to provide thorough research and insights into various data privacy regulations around the world, helping businesses navigate compliance and regulatory challenges.',
 		Technologies: [
 			{
-				title: 'Tools & Technologies',
+				title: 'Topics & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
-					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'GDPR',
+					'CCPA',
+					'EU AI Act',
+					'ARPA',
+					'State Privacy Laws',
+					'Data and B2B Practices',
 				],
 			},
 		],
@@ -82,22 +80,22 @@ export const singleProjectData = {
 			{
 				id: 1,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					'The General Data Protection Regulation (GDPR) sets a global standard for data privacy. BIC’s paper provides a detailed analysis of its key provisions and compliance strategies.',
 			},
 			{
 				id: 2,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					'California Consumer Privacy Act (CCPA) represents the US’s move toward greater data protection. Our analysis focuses on the law’s core principles and how businesses can align their practices.',
 			},
 			{
 				id: 3,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					'The EU AI Act introduces new rules on AI technology with significant data privacy implications. BIC’s research offers an in-depth exploration of how AI regulations intersect with data protection standards.',
 			},
 			{
 				id: 4,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					'Additional papers explore emerging state privacy laws in the U.S., ARPA (American Rescue Plan Act), and the growing significance of data management in B2B contexts.',
 			},
 		],
 		SocialSharingHeading: 'Share This',
@@ -106,55 +104,43 @@ export const singleProjectData = {
 				id: 1,
 				name: 'Twitter',
 				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
+				url: 'https://twitter.com/company',
 			},
 			{
 				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
+				name: 'Facebook',
+				icon: <FiFacebook />,
+				url: 'https://facebook.com/company',
 			},
 			{
 				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
 				name: 'LinkedIn',
 				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
+				url: 'https://linkedin.com/company',
 			},
 		],
 	},
 	RelatedProject: {
-		title: 'Related Projects',
+		title: 'Related Papers',
 		Projects: [
 			{
 				id: 1,
-				title: 'Mobile UI',
+				title: 'ARPA and Privacy in the Digital Age',
 				img: Image4,
 			},
 			{
 				id: 2,
-				title: 'Web Application',
+				title: 'State Privacy Laws: A Comprehensive Overview',
 				img: Image5,
 			},
 			{
 				id: 3,
-				title: 'UI Design',
+				title: 'Data and B2B: Privacy Implications for Businesses',
 				img: Image6,
 			},
 			{
 				id: 4,
-				title: 'Kabul Mobile App UI',
+				title: 'EU AI Act: Navigating AI and Privacy Regulations',
 				img: Image3,
 			},
 		],
