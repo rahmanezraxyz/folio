@@ -1,17 +1,14 @@
 
-import lpm from "./company/lpm.png";
-import ipeim from "./company/ipeim.png";
+import lps from "./company/lps.png";
+import ipeis from "./company/ipeis.png";
 import enis from "./company/enis.png";
-import quebec from "./company/quebec.png";
-import lordroid from "./company/lordroid.png";
-import bl from "./company/bl.png";
 
+import dg from "./company/djagora.png";
+import rd from "./company/REDX.png";
 export {
-
-  lordroid,
-  quebec,
-  lpm,
-  ipeim,
+  dg,
+  lps,
+  ipeis,
   enis,
-  bl,
+  rd,
 };
