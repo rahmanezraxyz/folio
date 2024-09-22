@@ -911,6 +911,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(13 36 56 / var(--tw-text-opacity));
 }
+.text-custom-purple {
+  --tw-text-opacity: 1;
+  color: rgb(145 94 255 / var(--tw-text-opacity));
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -938,6 +942,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-200 {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+.small-image {
+  width: 500px;
+  height: 500px;
+margin: auto;
+}
+.text-hero{
+width: max-content;
+  font-size:  3.54em;
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);

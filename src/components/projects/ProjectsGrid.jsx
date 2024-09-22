@@ -3,6 +3,8 @@ import { FiSearch } from 'react-icons/fi';
 import ProjectSingle from './ProjectSingle';
 import { ProjectsContext } from '../../context/ProjectsContext';
 import ProjectsFilter from './ProjectsFilter';
+import {styles} from "../styles";
+import {motion} from "framer-motion";
 
 const ProjectsGrid = () => {
 	const {
@@ -17,12 +19,11 @@ const ProjectsGrid = () => {
 
 	return (
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
-			<div className="text-center">
-				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
+			<motion.div className="mt-20 md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal  font-general-bold text-custom-purple text-center sm:text-left text-ternary-dark dark:text-primary-light ">
+				<p className={`${styles.sectionSubText} text-center`}>
 					Projects portfolio
 				</p>
-			</div>
-
+			</motion.div>
 			<div className="mt-10 sm:mt-16">
 				<h3
 					className="font-general-regular 

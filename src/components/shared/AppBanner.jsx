@@ -1,11 +1,17 @@
-import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import developerLight from '../../images/developer.svg';
 import developerDark from '../../images/developer-dark.svg';
 import { motion } from 'framer-motion';
+import logoDark from "../../images/logo-dark.svg";
+import logoLight from "../../images/logo-light.svg";
+import {experiences} from "../styles";
+import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
+import {useTheme} from "../../ThemeContext";
+
 
 const AppBanner = () => {
-	const [activeTheme] = useThemeSwitcher();
+
+	const { theme } = useTheme();
 
 	return (
 		<motion.section
@@ -23,9 +29,10 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
+					className="w-full text-hero font-general-bold text-custom-purple text-center sm:text-left text-ternary-dark dark:text-primary-light "
 				>
-					Hi, Iam Stoman
+
+					Hi, I&apos;m <span className=" text-custom-purple">Ibrahim</span>
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -37,7 +44,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
-					A Full-Stack Developer & Design Enthusiast
+					A Software Engineer & Full-Stack Developer
 				</motion.p>
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -66,14 +73,16 @@ const AppBanner = () => {
 				initial={{ opacity: 0, y: -180 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
+				className="w-full sm:w-2/3 justify-center align-middle mt-8 sm:mt-0"
 			>
 				<img
 					src={
-						activeTheme === 'dark' ? developerLight : developerDark
+						theme === 'dark' ? developerLight : developerDark
 					}
 					alt="Developer"
+					className="small-image"
 				/>
+
 			</motion.div>
 		</motion.section>
 	);
