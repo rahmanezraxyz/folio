@@ -2,7 +2,7 @@ import {
   lps,
   enis,
   dg,
-  rd, ipeis,
+  rd, ipeis, tl,
 } from "../images";
 const styles = {
   paddingX: "sm:px-16 px-6",
@@ -21,6 +21,19 @@ const styles = {
 };
 
 const experiences = [
+  {
+    title: "Software Engineer",
+    company_name: "Telnet",
+    icon: tl,
+    iconBg: "#E6DEDD",
+    date: "Feb. 2024 - Jun. 2024",
+    points: [
+      "- Optimization of NextVision, an application for seismic data interpretation using parallel CPU-GPU graph algorithms.",
+      "- Developed a hybrid CPU-GPU algorithm, resulting in a significant\n" +
+      "execution time improvement of 5.39x.",
+      "- Created a Docker environment to ensure portability and simplify application deployment.",
+    ],
+  },
   {
     title: "End of Studies Internship",
     company_name: "ReDX (Revolutionary Digital\n" +
