@@ -7,11 +7,16 @@ import logoLight from '../../images/logo-light.svg';
 import logoDark from '../../images/logo-dark.svg';
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
-
+import {useTheme} from "../../ThemeContext";
 const AppHeader = () => {
+	const { theme, setTheme } = useTheme();  // Use theme from context
+
+	const toggleTheme = () => {
+		setTheme(theme === 'dark' ? 'light' : 'dark');
+	};
 	const [showMenu, setShowMenu] = useState(false);
 	const [showModal, setShowModal] = useState(false);
-	const [activeTheme, setTheme] = useThemeSwitcher();
+
 
 	function toggleMenu() {
 		if (!showMenu) {
@@ -47,7 +52,7 @@ const AppHeader = () => {
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
 						<Link to="/">
-							{activeTheme === 'dark' ? (
+							{theme === 'dark' ? (
 								<img
 									src={logoDark}
 									className="w-36"
@@ -65,11 +70,11 @@ const AppHeader = () => {
 
 					{/* Theme switcher small screen */}
 					<div
-						onClick={() => setTheme(activeTheme)}
+						onClick={toggleTheme}
 						aria-label="Theme Switcher"
 						className="block sm:hidden ml-0 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
 					>
-						{activeTheme === 'dark' ? (
+						{theme === 'dark' ? (
 							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
 						) : (
 							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
@@ -177,15 +182,16 @@ const AppHeader = () => {
 					</div>
 
 					{/* Theme switcher large screen */}
+
 					<div
-						onClick={() => setTheme(activeTheme)}
+						onClick={toggleTheme}
 						aria-label="Theme Switcher"
 						className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
 					>
-						{activeTheme === 'dark' ? (
+						{theme === 'dark' ? (
 							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
 						) : (
-							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
+							<FiSun className="text-gray-400 hover:text-gray-50 text-xl" />
 						)}
 					</div>
 				</div>
