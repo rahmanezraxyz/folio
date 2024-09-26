@@ -1,10 +1,10 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: 'Computer Engineering graduate from ENIS with a very good grade. My passion for developing and exploring new fields in computer engineering is relentless. I am a dynamic, hardworking, and professional individual, fluent in both English and French. My experiences have shaped me into a well-rounded individual with exceptional troubleshooting abilities and a keen attention to detail. I excel in both independent work and team settings, always demonstrating strong communication and listening skills. I am creative, patient, and maintain a positive attitude, eagerly contributing to any project',
 	},
 	{
 		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: 'I am excited about the possibility of bringing my background, skills, and enthusiasm to your team. I am keen to learn more about your organization and discuss how I can contribute to your projects.',
 	},
 ];
