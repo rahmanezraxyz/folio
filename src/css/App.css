@@ -22,6 +22,11 @@ body {
 	font-family: 'GeneralSans-Variable';
 }
 
+.logo-img{
+	margin-top: 0.7em;
+	width: 5em; /* Scale down to fit the container */
+ 
+}
 @font-face {
 	font-family: 'GeneralSans-VariableItalic';
 	src: url('../fonts/GeneralSans-VariableItalic.woff2') format('woff2'),
