@@ -25,7 +25,7 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="w-full text-hero font-general-bold text-custom-purple text-center sm:text-left text-ternary-dark dark:text-primary-light "
+					className=" text-hero font-general-bold  text-center  sm:text-left leading-normal   text-ternary-dark dark:text-primary-light "
 				>
 
 					Hi, I&apos;m <span className=" text-custom-purple">Ibrahim</span>
