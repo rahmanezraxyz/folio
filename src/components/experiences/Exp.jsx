@@ -12,7 +12,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 import { experiences } from "../../components/styles";
 import { SectionWrapper } from "../../hoc";
-import { textVariant } from "../../utils/motion";
+
 
 
 
@@ -21,7 +21,7 @@ const ExperienceCard = ({ experience }) => {
 	const backgroundColor = theme === 'dark' ? "#fff" : "#F5F5F5"; // Dark or light background
 	const textColor = theme === 'dark' ? "#fff" : "#000000"; // Text color based on theme
 	const arrowColor = theme === 'dark' ? "#fff" : "#F5F5F5";
-	const textColor1 = theme === 'dark' ? "#000000" : "#000000"; // Text color based on theme
+
 	return (
 		<VerticalTimelineElement
 			contentStyle={{

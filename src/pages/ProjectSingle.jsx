@@ -1,5 +1,4 @@
 import { useParams } from 'react-router-dom';
-import { useContext } from 'react';
 import { singleProjectData  } from '../data/ProjectsData';
 import ProjectGallery from '../components/projects/ProjectGallery';
 import ProjectHeader from '../components/projects/ProjectHeader';

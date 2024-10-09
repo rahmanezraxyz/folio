@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import HireMeModal from '../HireMeModal';
 import logoLight from '../../images/logo.svg';
 import logoDark from '../../images/logo.svg';
