@@ -17,9 +17,10 @@ import {
 export const singleProjectData = [
 	{
 	ProjectHeader: {
-		title: 'Laboratory Research Management',
+		title: 'Revolutionizing Lab Research Management',
+		subTitle : 'Revolutionizing Lab Research: A Dynamic Web Application for Efficient Management',
 		publishDate: 'Jan 27, 2024',
-		tags: 'Angular / SpringBoot',
+		tags: 'Angular / SpringBoot / JWT',
 	},
 	ProjectImages: [
 		{
@@ -43,6 +44,13 @@ export const singleProjectData = [
 		ObjectivesHeading: 'Objective',
 		ObjectivesDetails:
 			'A web application which is a part of a laboratory project focusing on research management. The project aims to create a comprehensive web platform for managing a research laboratory, including its members, publications, tools, and events.',
+		GithubHeading : 'Github Link',
+		ProjectLink: [{
+			title: 'Github Link',
+			display : 'Laboratory Research Management',
+			url: 'https://github.com/Ibrahim25-ai/Laboratory_Research_Management_SpringBoot_Angular',
+		}],
+	
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
@@ -100,7 +108,7 @@ export const singleProjectData = [
 				id: 4,
 				name: 'LinkedIn',
 				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
+				url: 'https://linkedin.com/in/ibrahim-ben-lakhal/',
 			},
 			{
 				id: 5,
@@ -139,8 +147,9 @@ export const singleProjectData = [
 	{
 		ProjectHeader: {
 			title: 'BrightSkies Academy Platform',
+			subTitle: 'BrightSkies Academy: Elevating High Performance Computing Training with a Tailored Platform',
 			publishDate: 'Nov 6, 2023',
-			tags: 'Angular, Django, MySQL, AWS',
+			tags: 'Angular / Django / MySQL / AWS',
 		},
 		ProjectImages: [
 			{
@@ -240,7 +249,7 @@ export const singleProjectData = [
 					id: 4,
 					name: 'LinkedIn',
 					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
+					url: 'https://linkedin.com/in/ibrahim-ben-lakhal/',
 				},
 				{
 					id: 5,
@@ -278,7 +287,8 @@ export const singleProjectData = [
 	},
 	{
 		ProjectHeader: {
-				title: 'Olive Oil supply chain',
+			title: 'Blockchain-Driven Authenticity',
+			subTitle:'Blockchain-Driven Authenticity: Transforming Olive Oil Supply Chain Transparency',
 				publishDate: 'May 31, 2023',
 				tags: 'React / NodeJS / Blockchain / MongoDB ',
 		},
@@ -304,6 +314,12 @@ export const singleProjectData = [
 				ObjectivesHeading: 'Objective',
 				ObjectivesDetails:
 				'The main objective of this project is to develop a decentralized application that ensures the traceability of Tunisian extra virgin olive oil using blockchain technology. This application will allow consumers to scan a QR code to view the complete history of their product, thus ensuring transparency regarding the origin and quality of the olive oil.',
+				GithubHeading : 'Github Link',
+				ProjectLink: [{
+					title: 'Github Link',
+					display : 'Olive Oil supply chain',
+					url: 'https://github.com/Ibrahim25-ai/pfa',
+				}],
 				Technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -367,7 +383,7 @@ export const singleProjectData = [
 						id: 4,
 						name: 'LinkedIn',
 						icon: <FiLinkedin />,
-						url: 'https://linkedin.com/',
+						url: 'https://linkedin.com/in/ibrahim-ben-lakhal/',
 					},
 					{
 						id: 5,
@@ -405,7 +421,144 @@ export const singleProjectData = [
 	},
 	{
 		ProjectHeader: {
-				title: 'Blog space',
+				title: 'Scalable .NET eCommerce Solution',
+				subTitle: 'Empowering Online Retail: A Scalable .NET eCommerce Solution',
+				publishDate: 'Dec 12, 2023',
+				tags: '.NET / C# /  MS SQL / HTML / CSS',
+		},
+		ProjectImages: [
+				{
+					id: 1,
+					title: 'Kabul Project Management UI',
+					img: Image1,
+				},
+				{
+					id: 2,
+					title: 'Kabul Project Management UI',
+					img: Image2,
+				},
+				{
+					id: 3,
+					title: 'Kabul Project Management UI',
+					img: Image3,
+				},
+		],
+		ProjectInfo: {
+				
+			GithubHeading : 'Github Link',
+				ProjectLink: [{
+					title: 'Github Link',
+					display : 'Ecommerce website',
+					url: 'https://github.com/Ibrahim25-ai/ecommerce',
+				}],
+				ObjectivesHeading: 'Objective',
+				ObjectivesDetails: 
+				'The objective of this project is to create a powerful and flexible open-source eCommerce platform built on .NET 6, designed to provide businesses with the tools they need to scale and grow. The platform is optimized for high performance, scalability, and security, supporting integration with Microsoft technologies and web farms for enterprise-level reliability.',
+				Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+					'.NET 6',
+					'MS SQL',
+					'Azure',
+					'Web Farms',
+					'Asynchronous Methods',
+					],
+				},
+				],
+				ProjectDetailsHeading: 'Challenge',
+				ProjectDetails: [
+				{
+					id: 1,
+					details: 
+					'One of the key challenges was designing a highly scalable architecture to support businesses of all sizes, from small stores to large enterprises, while maintaining the flexibility required for different business models.',
+				},
+				{
+					id: 2,
+					details: 
+					'Ensuring seamless integration with web farms was critical for optimizing performance and reliability, especially for businesses with heavy traffic or distributed systems.',
+				},
+				{
+					id: 3,
+					details: 
+					'Implementing fully asynchronous methods was crucial to enhancing responsiveness and performance across the platform, minimizing load times, and providing smooth user experiences.',
+				},
+				{
+					id: 4,
+					details: 
+					'Maintaining a high standard of security was essential, requiring adherence to industry-standard security practices, especially when dealing with sensitive customer and transaction data.',
+				},
+				{
+					id: 5,
+					details: 
+					'As an open-source project, fostering a strong community and providing a customizable, pluggable architecture was a challenge that required attention to design patterns and extensibility, making it easy for developers to contribute and tailor the platform.',
+				},
+				],
+  
+				SocialSharingHeading: 'Share This',
+				SocialSharing: [
+					{
+						id: 1,
+						name: 'Twitter',
+						icon: <FiTwitter />,
+						url: 'https://twitter.com/realstoman',
+					},
+					{
+						id: 2,
+						name: 'Instagram',
+						icon: <FiInstagram />,
+						url: 'https://instagram.com/realstoman',
+					},
+					{
+						id: 3,
+						name: 'Facebook',
+						icon: <FiFacebook />,
+						url: 'https://facebook.com/',
+					},
+					{
+						id: 4,
+						name: 'LinkedIn',
+						icon: <FiLinkedin />,
+						url: 'https://linkedin.com/in/ibrahim-ben-lakhal/',
+					},
+					{
+						id: 5,
+						name: 'Youtube',
+						icon: <FiYoutube />,
+						url: 'https://www.youtube.com/c/StomanStudio',
+					},
+				],
+		},
+		RelatedProject: {
+				title: 'Related Projects',
+				Projects: [
+					{
+						id: 1,
+						title: 'Mobile UI',
+						img: Image4,
+					},
+					{
+						id: 2,
+						title: 'Web Application',
+						img: Image5,
+					},
+					{
+						id: 3,
+						title: 'UI Design',
+						img: Image6,
+					},
+					{
+						id: 4,
+						title: 'Kabul Mobile App UI',
+						img: Image3,
+					},
+				],
+		},
+	},
+	{
+		ProjectHeader: {
+				title: 'Your Personal Blogging Space',
+				subTitle: 'Your Personal Blogging Space: Seamless Content Creation and Engagement Platform',
 				publishDate: 'May 28, 2023',
 				tags: 'PHP / AJAX / JAVASCRIPT / HTML / CSS',
 		},
@@ -431,6 +584,12 @@ export const singleProjectData = [
 				ObjectivesHeading: 'Objective',
 				ObjectivesDetails:
 				'The main objective of this project is to develop a blog platform that allows users to securely authenticate, write posts, and interact with other users through comments and reactions. The application will be designed using the MVC (Model-View-Controller) pattern to ensure a clean separation of concerns and maintainable code structure.',
+				GithubHeading : 'Github Link',
+				ProjectLink: [{
+					title: 'Github Link',
+					display : 'Blog space',
+					url: 'https://github.com/Ibrahim25-ai/blog/tree/main/blog/blog',
+				}],
 				Technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -491,7 +650,7 @@ export const singleProjectData = [
 						id: 4,
 						name: 'LinkedIn',
 						icon: <FiLinkedin />,
-						url: 'https://linkedin.com/',
+						url: 'https://linkedin.com/in/ibrahim-ben-lakhal/',
 					},
 					{
 						id: 5,
@@ -529,9 +688,10 @@ export const singleProjectData = [
 	},
 	{
 		ProjectHeader: {
-			title: 'Patient tracker',
+			title: 'Patient Tracker',
+			subTitle: 'Patient Tracker: Real-Time Health Monitoring and Alert System for Peace of Mind',
 			publishDate: 'Apr 20, 2023',
-			tags: 'Dart / Flutter',
+			tags: 'Dart / Flutter / Firebase',
 		},
 		ProjectImages: [
 				{
@@ -555,6 +715,12 @@ export const singleProjectData = [
 				ObjectivesHeading: 'Objective',
 				ObjectivesDetails:
 				'The primary objective of this project is to develop a mobile application using Flutter to help users keep track of patient health status. The app provides real-time visualization of patient information, sends alerts in case of emergencies, and allows users to add tasks and medication reminders.',
+				GithubHeading : 'Github Link',
+				ProjectLink: [{
+					title: 'Github Link',
+					display : 'Patient tracker',
+					url: 'https://github.com/Ibrahim25-ai/SuiviPatientFlutter',
+				}],
 				Technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -611,7 +777,7 @@ export const singleProjectData = [
 						id: 4,
 						name: 'LinkedIn',
 						icon: <FiLinkedin />,
-						url: 'https://linkedin.com/',
+						url: 'https://linkedin.com/in/ibrahim-ben-lakhal/',
 					},
 					{
 						id: 5,
@@ -650,6 +816,8 @@ export const singleProjectData = [
 	{
 		ProjectHeader: {
 			title: 'DoubleCo Agency',
+			subTitle: 'DoubleCo Agency: Showcasing Creativity with a User-Friendly Mobile-Responsive Site',
+
 			publishDate: 'Oct 11, 2022',
 			tags: 'HTML / Bootstrap / CSS / Frontend',
 		},
@@ -688,6 +856,12 @@ export const singleProjectData = [
 				ObjectivesHeading: 'Objective',
 				ObjectivesDetails:
 				'The primary objective of this project is to develop a showcase website for a communication agency to effectively present their services. The site is designed to be user-friendly and visually appealing, ensuring a seamless experience for visitors on both desktop and mobile devices.',
+				GithubHeading : 'Github Link',
+				ProjectLink: [{
+					title: 'Github Link',
+					display : 'DoubleCo Agency',
+					url: 'https://github.com/Ibrahim25-ai/DoubleCo',
+				}],
 				Technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -746,7 +920,7 @@ export const singleProjectData = [
 						id: 4,
 						name: 'LinkedIn',
 						icon: <FiLinkedin />,
-						url: 'https://linkedin.com/',
+						url: 'https://linkedin.com/in/ibrahim-ben-lakhal/',
 					},
 					{
 						id: 5,

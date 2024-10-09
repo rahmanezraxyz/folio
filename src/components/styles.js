@@ -27,12 +27,11 @@ const experiences = [
     icon: tl,
     iconBg: "#E6DEDD",
     date: "Feb. 2024 - Jun. 2024",
-    points: [
-      "- Optimization of NextVision, an application for seismic data interpretation using parallel CPU-GPU graph algorithms.",
-      "- Developed a hybrid CPU-GPU algorithm, resulting in a significant\n" +
-      "execution time improvement of 5.39x.",
-      "- Created a Docker environment to ensure portability and simplify application deployment.",
-    ],
+      points: [
+          "- Contributed to the enhancement of a three-layer payment host gateway for Ingenico's payment solution integration.",
+          "- Improved WebSocket features by applying SOLID principles, design patterns, and leveraging the latest C++ features.",
+          "- Managed the development cycle by using SVN for the version control and the CI/CD processes using Bamboo.",
+      ],  
   },
   {
     title: "End of Studies Internship",

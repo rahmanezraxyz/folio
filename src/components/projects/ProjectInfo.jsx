@@ -21,7 +21,7 @@ const ProjectInfo = ({ project }) => {
 					  >
 						<span>{info.title}: </span>
 						<a
-						  href="https://stoman.me"
+						  href={info.details}
 						  className={
 							info.title === 'Website' || info.title === 'Phone'
 							  ? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
@@ -49,7 +49,38 @@ const ProjectInfo = ({ project }) => {
 			  </p>
 			</div>
 		  )}
-  
+ 		  {/* Single project Github */}
+		   <div className="mb-7">
+			  <p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
+				{ProjectInfo.GithubHeading}
+			  </p>
+		   { ProjectInfo.ProjectLink && (
+				<ul className="leading-loose">
+				{ProjectInfo.ProjectLink &&
+				  ProjectInfo.ProjectLink.map((info) => {
+					return (
+					  <li
+						className="font-general-regular text-ternary-dark dark:text-ternary-light mt-4"
+						
+					  >
+						
+						<a
+						  href={info.url}
+						  className={
+							info.title === 'Website' || info.title === 'Phone'
+							  ? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
+							  : ''
+						  }
+						  aria-label="Project Website and Phone"
+						>
+						  {info.display}
+						</a>
+					  </li>
+					);
+				  })}
+			  </ul>
+			  )}
+			  </div>
 		  {/* Single project technologies */}
 		  {ProjectInfo && ProjectInfo.Technologies && ProjectInfo.Technologies[0] && (
 			<div className="mb-7">
@@ -87,12 +118,11 @@ const ProjectInfo = ({ project }) => {
 			</div>
 		  )}
 		</div>
-  
 		{/* Single project right section */}
 		<div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
 		  {ProjectInfo && ProjectInfo.ProjectDetailsHeading && (
 			<p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
-			  {ProjectInfo.ProjectDetailsHeading}
+			  {ProjectInfo.ProjectDetailsHeading} 
 			</p>
 		  )}
 		  {ProjectInfo &&
