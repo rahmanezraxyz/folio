@@ -7,7 +7,7 @@ import Exp from "../components/experiences/Exp";
 
 const Home = () => {
 	return (
-		<div className="container mx-auto">
+		<div className="container mx-auto ">
 			<AppBanner></AppBanner>
 			<Exp></Exp>
 			<ProjectsProvider>

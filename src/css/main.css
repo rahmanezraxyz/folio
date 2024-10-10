@@ -943,29 +943,47 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
 }
+
+
 .small-image {
-  width: 500px;
-  height: 500px;
+
+  padding: 4em;
 margin: auto;
 }
 .text-hero {
 
-  font-size: 3.54em; /* Default size */
+  font-size: 4.54em; /* Default size */
 }
-
+.section{
+  margin-bottom: 5em;
+  margin-top: 5em;
+  
+}
 @media (max-width: 1024px) {
+  .section{
+    margin-bottom: 5em;
+  }
   .text-hero {
     font-size: 3em; /* Adjust for lg screens */
   }
+  
 }
 
 @media (max-width: 768px) {
+  .section{
+    margin-bottom: 5em;
+  }
   .text-hero {
     font-size: 2.5em; /* Adjust for md screens */
   }
 }
 
 @media (max-width: 480px) {
+  .small-image {
+
+    padding: 1em;
+  margin: auto;
+  }
   .text-hero {
     font-size: 2.5em; /* Adjust for sm screens */
   }
