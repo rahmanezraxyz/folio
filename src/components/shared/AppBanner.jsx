@@ -69,7 +69,7 @@ const AppBanner = () => {
 				initial={{ opacity: 0, y: -180 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-				className="w-full sm:w-1/2 justify-center align-middle mt-8 sm:mt-0"
+				className="w-full sm:w-1/2 justify-center align-middle  sm:mt-0"
 			>
 				<img
 					src={

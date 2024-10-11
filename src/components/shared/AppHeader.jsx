@@ -68,10 +68,14 @@ const AppHeader = () => {
 					</div>
 
 					{/* Theme switcher small screen */}
+					
+
+					{/* Small screen hamburger menu */}
+					<div className="sm:hidden flex   ">
 					<div
 						onClick={toggleTheme}
 						aria-label="Theme Switcher"
-						className="block sm:hidden ml-0 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
+						className="block themSwitch sm:hidden mt-2 bg-primary-light dark:bg-ternary-dark p-2 shadow-sm rounded-xl cursor-pointer"
 					>
 						{theme === 'dark' ? (
 							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
@@ -79,13 +83,10 @@ const AppHeader = () => {
 							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
 						)}
 					</div>
-
-					{/* Small screen hamburger menu */}
-					<div className="sm:hidden">
 						<button
 							onClick={toggleMenu}
 							type="button"
-							className="focus:outline-none"
+							className="focus:outline-none "
 							aria-label="Hamburger Menu"
 						>
 							<svg
@@ -100,6 +101,7 @@ const AppHeader = () => {
 								)}
 							</svg>
 						</button>
+				
 					</div>
 				</div>
 

@@ -19,8 +19,8 @@ const ProjectsGrid = () => {
 
 	return (
 		<section className="py-5  mt-5">
-			<motion.div className="textProj  mt-20 leading-normal text-custom-purple text-ternary-dark dark:text-primary-light">
-				<p className={`${styles.sectionHeadText} text-hero font-general-bold leading-normal text-ternary-dark dark:text-primary-light`}>
+			<motion.div className="  mt-20 leading-normal text-custom-purple text-ternary-dark dark:text-primary-light">
+				<p className={`${styles.sectionHeadText} text-heroExp font-general-bold leading-normal text-ternary-dark dark:text-primary-light`}>
 					Projects.
 				</p>
 				<div className="flex">
@@ -33,17 +33,17 @@ const ProjectsGrid = () => {
 				</div>
 			</motion.div>
 			<div className="mt-10 sm:mt-16">
-				<h3
-					className="font-general-regular 
-                        text-center text-secondary-dark
+				<p
+					className="font-general-normal text-balance text-pretty leading-normal 
+                        text-center text-white-500
                         dark:text-ternary-light
                         text-md
                         sm:text-xl
-                        mb-3
+                        mb-3 leading-normal
                         "
 				>
 					Search projects by title or filter by category
-				</h3>
+				</p>
 				<div
 					className="
                         flex
