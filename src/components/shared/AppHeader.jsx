@@ -80,7 +80,7 @@ const AppHeader = () => {
 						{theme === 'dark' ? (
 							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
 						) : (
-							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
+							<FiSun className="text-gray-500 hover:text-gray-50 text-xl" />
 						)}
 					</div>
 						<button
@@ -190,9 +190,9 @@ const AppHeader = () => {
 						className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
 					>
 						{theme === 'dark' ? (
-							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
+							<FiMoon className="text-ternary-dark hover:text-gray-40 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
 						) : (
-							<FiSun className="text-gray-400 hover:text-gray-50 text-xl" />
+							<FiSun className="text-gray-500 hover:text-gray-50 text-xl" />
 						)}
 					</div>
 				</div>
