@@ -967,6 +967,15 @@ margin: auto;
   align-items: center;
 
 }
+@media (max-width: 1920px) {
+  .section{
+    margin: 0em 0em;
+  }
+  .text-hero {
+    font-size: 4em; /* Adjust for lg screens */
+  }
+  
+}
 @media (max-width: 1024px) {
   .section{
     margin-bottom: 5em;
