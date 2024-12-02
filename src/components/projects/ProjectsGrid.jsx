@@ -18,24 +18,32 @@ const ProjectsGrid = () => {
 	} = useContext(ProjectsContext);
 
 	return (
-		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
-			<motion.div className="mt-20 md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal  font-general-bold text-custom-purple text-center sm:text-left text-ternary-dark dark:text-primary-light ">
-				<p className={`${styles.sectionSubText} text-center`}>
-					Projects portfolio
+		<section className="py-5  mt-5">
+			<motion.div className="  mt-20 leading-normal text-custom-purple text-ternary-dark dark:text-primary-light">
+				<p className={`${styles.sectionHeadText} text-heroExp font-general-bold leading-normal text-ternary-dark dark:text-primary-light`}>
+					Projects.
 				</p>
+				<div className="flex">
+					<div className=" w-2/3"> {/* Adjust widths as needed */}
+						<p className={`${styles.sectionSubText} text-balance text-pretty leading-normal font-general-normal text-white-500`}>
+							Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+						</p>
+					</div>
+					<div className="w-full"></div>
+				</div>
 			</motion.div>
 			<div className="mt-10 sm:mt-16">
-				<h3
-					className="font-general-regular 
-                        text-center text-secondary-dark
+				<p
+					className="font-general-normal text-balance text-pretty leading-normal 
+                        text-center text-white-500
                         dark:text-ternary-light
                         text-md
                         sm:text-xl
-                        mb-3
+                        mb-3 leading-normal
                         "
 				>
 					Search projects by title or filter by category
-				</h3>
+				</p>
 				<div
 					className="
                         flex
@@ -66,8 +74,7 @@ const ProjectsGrid = () => {
 								setSearchProject(e.target.value);
 							}}
 							className="font-general-medium 
-                                pl-3
-                                pr-1
+                              
                                 sm:px-4
                                 py-2
                                 border 
@@ -85,12 +92,12 @@ const ProjectsGrid = () => {
 							name="name"
 							type="search"
 							required=""
-							placeholder="Search Projects"
+							placeholder=" Search Projects"
 							aria-label="Name"
 						/>
 					</div>
 
-					<ProjectsFilter setSelectProject={setSelectProject} />
+					<ProjectsFilter  setSelectProject={setSelectProject} />
 				</div>
 			</div>
 

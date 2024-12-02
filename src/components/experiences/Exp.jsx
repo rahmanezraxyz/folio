@@ -74,16 +74,16 @@ const Experience = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-				className=" sm:justify-between items-center sm:flex-row mt-12 md:mt-2"
+				className=" section sm:justify-between items-center sm:flex-row "
 		>
 
 
-			<motion.div className="mt-20 md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal  font-general-bold text-custom-purple text-center sm:text-left text-ternary-dark dark:text-primary-light ">
-				<p className={`${styles.sectionSubText} text-center`}>
+			<motion.div className=" text-center sm:text-left leading-normal   text-custom-purple text-center sm:text-left text-ternary-dark dark:text-primary-light ">
+				<p className={`${styles.sectionSubText} text-center font-general-medium mt-4 text-lg md:text-lg lg:text-xl xl:text-2xl text-center  leading-normal text-gray-500`}>
 					What I have done so far
 				</p>
-				<h2 className={`${styles.sectionHeadText} text-center  mt-10 text-gray-500 dark:text-gray-200`}>
-					Education & Experience
+				<h2 className={`${styles.sectionHeadText} text-heroExp text-lg md:text-lg lg:text-xl xl:text-2xl font-general-bold  text-center  leading-normal   text-ternary-dark dark:text-primary-light`}>
+					Education & Experience.
 				</h2>
 			</motion.div>
 
