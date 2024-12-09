@@ -52,7 +52,7 @@ const experiences = [
   },
   {
     title: "Master Degree in Computer Engineering",
-    company_name: "National School of Engineers of Sfax (ENIS)",
+    company_name: "National School of Engineers of Sfax (ENIS) | GPA(3.63/4.0)",
     icon: enis,
     iconBg: "#383E56",
     date: "Sep. 2021 – Jun. 2024",
@@ -91,14 +91,13 @@ const experiences = [
   },
   {
     title: "Mathematics and Physics Preparatory Cycle",
-    company_name: "Sfax Preparatory Engineering Institute (IPEIS)",
+    company_name: "Sfax Preparatory Engineering Institute (IPEIS) | Ranked in the top 20 % In the National Exam for Entrance to Engineering Schools",
     icon: ipeis,
     iconBg: "#383E56",
     date: "Sep. 2019 - Jun. 2021",
     points: [
       "Sfax Preparatory Engineering Institute (IPEIS) is a renowned educational institute in Tunisia, specializing in preparing students for engineering careers.",
       "With comprehensive courses and experienced faculty, IPEIS emphasizes rigorous training and practical skills development.",
-      "The institute's state-of-the-art facilities create an ideal learning environment for students to excel in their engineering pursuits.",
     ],
   },
   {
