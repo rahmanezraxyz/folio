@@ -26,11 +26,13 @@ const experiences = [
     company_name: "Telnet",
     icon: tl,
     iconBg: "#E6DEDD",
-    date: "Feb. 2024 - Jun. 2024",
+    date: "Jul. 2024 - Present",
       points: [
-          "- Contributed to the enhancement of a three-layer payment host gateway for Ingenico's payment solution integration.",
-          "- Improved WebSocket features by applying SOLID principles, design patterns, and leveraging the latest C++ features.",
-          "- Managed the development cycle by using SVN for the version control and the CI/CD processes using Bamboo.",
+          "- Developed features handling timeout and error conditions, improving transaction reliability.",
+          "- Optimized Ingenico’s payment solution, reducing lag and improving uptime by 15% across 10 functionalities.",
+          "- Refactored legacy code using SOLID principles, reducing technical debt by 20% and maintenance time by 25%.",
+          "- Migrated 20+ projects from SVN to Bitbucket, automating scripts to streamline deployment.",
+          "- Collaborated with a Scrum team using Jira, achieving an average sprint completion rate of 95%.",
       ],  
   },
   {
@@ -41,10 +43,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb. 2024 - Jun. 2024",
     points: [
-      "- Optimization of NextVision, an application for seismic data interpretation using parallel CPU-GPU graph algorithms.",
-      "- Developed a hybrid CPU-GPU algorithm, resulting in a significant\n" +
-      "execution time improvement of 5.39x.",
-      "- Created a Docker environment to ensure portability and simplify application deployment.",
+      "- Optimized NextVision, an application for interpreting seismic data using parallel programming.",
+      "- Analyzed existing algorithms in NextVision.",
+      "- Created a Docker environment to reduce setup time by 50%, for seamless deployment.",
+      "- Developed a hybrid CPU-GPU algorithm, Improving execution time by 5.39x.",
+      "- Tested and benchmarked to confirm performance enhancements.",
     ],
   },
   {
@@ -67,11 +70,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jun. 2023 - Aug. 2023",
     points: [
-      "- Developed a web-based platform for online training tailored to\n" +
-      "High Performance Computing (HPC) courses.",
-      "- Created an AWS Lambda function to offer solutions tailored to client requirements and budget.",
-      "- Developed a dashboard for super administrators and managers.",
-      "- Monitored user progress in their courses.",
+      "- Developed a Cloud-Based HPC Training Platform with Advanced Features and Enhanced User Experience.",
+      "- Designed and implemented dashboards for six distinct roles, each with customized KPIs and departmental metrics.",
+      "- Secured communication between backend and frontend using JWT authentication.",
+      "- Created features for course progress tracking and automated certification issuance.",
     ],
   },
   {
@@ -81,9 +83,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jul. 2022 - Aug. 2022",
     points: [
-      "- During my internship at Djagora FABLAB, I developed a mobile application for patient monitoring.",
-      "-  Gained hands-on experience in developing innovative mobile applications using Android Studio and Java .",
-      "- This opportunity significantly enhanced my programming skills, particularly in Java, and honed my ability to write efficient and robust code.",
+      "- Developed a mobile application for patient monitoring, used by over 50 patients during initial testing, improving healthcare accessibility and efficiency.",
+      "- Implemented real-time visualization features for tracking patient conditions, with updates displayed within a 1-second delay.",
+      "- Designed an alert system capable of sending notifications in under 5 seconds, reducing response time for critical emergencies by 40%.",
 
     ],
   },
