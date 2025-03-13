@@ -1,17 +1,21 @@
 import { useState } from 'react';
 import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import HireMeModal from '../HireMeModal';
-import logoLight from '../../images/logo-light.svg';
-import logoDark from '../../images/logo-dark.svg';
+import logoLight from '../../images/logo.png';
+import logoDark from '../../images/logo.png';
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
-
+import {useTheme} from "../../ThemeContext";
 const AppHeader = () => {
+	const { theme, setTheme } = useTheme();  // Use theme from context
+
+	const toggleTheme = () => {
+		setTheme(theme === 'dark' ? 'light' : 'dark');
+	};
 	const [showMenu, setShowMenu] = useState(false);
 	const [showModal, setShowModal] = useState(false);
-	const [activeTheme, setTheme] = useThemeSwitcher();
+
 
 	function toggleMenu() {
 		if (!showMenu) {
@@ -44,19 +48,19 @@ const AppHeader = () => {
 		>
 			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center py-6">
 				{/* Header menu links and small screen hamburger menu */}
-				<div className="flex justify-between items-center px-4 sm:px-0">
+				<div className="flex justify-between items-center px-4 sm:px-0 ">
 					<div>
 						<Link to="/">
-							{activeTheme === 'dark' ? (
-								<img
+							{theme === 'dark' ? (
+								<img 
 									src={logoDark}
-									className="w-36"
+									className="logo-img"
 									alt="Dark Logo"
 								/>
 							) : (
 								<img
 									src={logoLight}
-									className="w-36"
+									className="logo-img"
 									alt="Dark Logo"
 								/>
 							)}
@@ -64,24 +68,25 @@ const AppHeader = () => {
 					</div>
 
 					{/* Theme switcher small screen */}
-					<div
-						onClick={() => setTheme(activeTheme)}
-						aria-label="Theme Switcher"
-						className="block sm:hidden ml-0 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
-					>
-						{activeTheme === 'dark' ? (
-							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
-						) : (
-							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
-						)}
-					</div>
+					
 
 					{/* Small screen hamburger menu */}
-					<div className="sm:hidden">
+					<div className="sm:hidden flex   ">
+					<div
+						onClick={toggleTheme}
+						aria-label="Theme Switcher"
+						className="block themSwitch sm:hidden mt-2 bg-primary-light dark:bg-ternary-dark p-2 shadow-sm rounded-xl cursor-pointer"
+					>
+						{theme === 'dark' ? (
+							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
+						) : (
+							<FiSun className="text-gray-500 hover:text-gray-50 text-xl" />
+						)}
+					</div>
 						<button
 							onClick={toggleMenu}
 							type="button"
-							className="focus:outline-none"
+							className="focus:outline-none "
 							aria-label="Hamburger Menu"
 						>
 							<svg
@@ -96,6 +101,7 @@ const AppHeader = () => {
 								)}
 							</svg>
 						</button>
+				
 					</div>
 				</div>
 
@@ -177,15 +183,16 @@ const AppHeader = () => {
 					</div>
 
 					{/* Theme switcher large screen */}
+
 					<div
-						onClick={() => setTheme(activeTheme)}
+						onClick={toggleTheme}
 						aria-label="Theme Switcher"
 						className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
 					>
-						{activeTheme === 'dark' ? (
-							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
+						{theme === 'dark' ? (
+							<FiMoon className="text-ternary-dark hover:text-gray-40 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
 						) : (
-							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
+							<FiSun className="text-gray-500 hover:text-gray-50 text-xl" />
 						)}
 					</div>
 				</div>

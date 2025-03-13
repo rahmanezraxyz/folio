@@ -7,45 +7,82 @@ import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
 
 export const projectsData = [
+
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Revolutionizing Lab Research Management',
+		category: 'Web Application',
+		img: MobileImage2,
+		ProjectHeader: {
+			title: 'Revolutionizing Lab Research: A Dynamic Web Application for Efficient Management',
+			publishDate: 'Jan 27, 2024',
+			tags: 'Angular / SpringBoot',
+		},
+	},
+{
+	id: 7,
+	title: 'Scalable .NET eCommerce Solution',
+	category: 'Web Application',
+	img: MobileImage2,
+	ProjectHeader: {
+		title: 'Empowering Online Retail: A Scalable .NET eCommerce Solution',
+		publishDate: 'Dec 12, 2023',
+		tags: '.NET / C# /  MS SQL / HTML / CSS',
+	},
+},
+	{
+		id: 2,
+		title: 'BrightSkies Academy Platform',
 		category: 'Web Application',
 		img: WebImage2,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			title: 'BrightSkies Academy: Elevating High Performance Computing Training with a Tailored Platform',
+			publishDate: 'Nov 6, 2023',
+			tags: 'Angular, Django, MySQL, AWS',
 		},
 	},
 	{
-		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
-		img: MobileImage2,
-	},
-	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
+		title: 'Blockchain-Driven Authenticity',
+		category: 'Web application',
 		img: UIImage1,
+		ProjectHeader: {
+			title: 'Blockchain-Driven Authenticity: Transforming Olive Oil Supply Chain Transparency',
+			publishDate: 'May 31, 2023',
+			tags: 'React / NodeJS / Blockchain / MongoDB ',
+		},
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
+		title: 'Your Personal Blogging Space',
+		category: 'Web application',
 		img: UIImage2,
+		ProjectHeader: {
+			title: 'Your Personal Blogging Space: Seamless Content Creation and Engagement Platform',
+			publishDate: 'May 28, 2023',
+			tags: 'PHP / AJAX / JAVASCRIPT / HTML / CSS',
+		},
 	},
 	{
 		id: 5,
-		title: 'React Social App',
+		title: 'Patient Tracker',
 		category: 'Mobile Application',
 		img: MobileImage1,
+		ProjectHeader: {
+			title: 'Patient Tracker: Real-Time Health Monitoring and Alert System for Peace of Mind',
+			publishDate: 'Apr 20, 2023',
+			tags: 'Dart / Flutter',
+		},
 	},
 	{
 		id: 6,
-		title: 'Apple Design System',
+		title: 'DoubleCo Agency',
 		category: 'Web Application',
 		img: WebImage1,
+		ProjectHeader: {
+			title: 'DoubleCo Agency: Showcasing Creativity with a User-Friendly Mobile-Responsive Site',
+			publishDate: 'Oct 11, 2022',
+			tags: 'HTML / Bootstrap / CSS / Frontend',
+		},
 	},
 ];

@@ -6,6 +6,7 @@ import AppFooter from './components/shared/AppFooter';
 import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
+import { ThemeProvider } from './ThemeContext';
 
 const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
@@ -16,6 +17,7 @@ const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 function App() {
 	return (
+		<ThemeProvider>
 		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
 				<Router>
@@ -25,10 +27,7 @@ function App() {
 						<Routes>
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
-							<Route
-								path="projects/single-project"
-								element={<ProjectSingle />}
-							/>
+							<Route path="/projects/:title" element={<ProjectSingle />} />
 
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />
@@ -39,6 +38,7 @@ function App() {
 				<UseScrollToTop />
 			</div>
 		</AnimatePresence>
+		</ThemeProvider>
 	);
 }
 

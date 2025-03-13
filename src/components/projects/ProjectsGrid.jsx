@@ -3,6 +3,8 @@ import { FiSearch } from 'react-icons/fi';
 import ProjectSingle from './ProjectSingle';
 import { ProjectsContext } from '../../context/ProjectsContext';
 import ProjectsFilter from './ProjectsFilter';
+import {styles} from "../styles";
+import {motion} from "framer-motion";
 
 const ProjectsGrid = () => {
 	const {
@@ -16,25 +18,32 @@ const ProjectsGrid = () => {
 	} = useContext(ProjectsContext);
 
 	return (
-		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
-			<div className="text-center">
-				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Projects portfolio
+		<section className="py-5  mt-5">
+			<motion.div className="  mt-20 leading-normal text-custom-purple text-ternary-dark dark:text-primary-light">
+				<p className={`${styles.sectionHeadText} text-heroExp font-general-bold leading-normal text-ternary-dark dark:text-primary-light`}>
+					Projects.
 				</p>
-			</div>
-
+				<div className="flex">
+					<div className=" w-2/3"> {/* Adjust widths as needed */}
+						<p className={`${styles.sectionSubText} text-balance text-pretty leading-normal font-general-normal text-white-500`}>
+							Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+						</p>
+					</div>
+					<div className="w-full"></div>
+				</div>
+			</motion.div>
 			<div className="mt-10 sm:mt-16">
-				<h3
-					className="font-general-regular 
-                        text-center text-secondary-dark
+				<p
+					className="font-general-normal text-balance text-pretty leading-normal 
+                        text-center text-white-500
                         dark:text-ternary-light
                         text-md
                         sm:text-xl
-                        mb-3
+                        mb-3 leading-normal
                         "
 				>
 					Search projects by title or filter by category
-				</h3>
+				</p>
 				<div
 					className="
                         flex
@@ -65,8 +74,7 @@ const ProjectsGrid = () => {
 								setSearchProject(e.target.value);
 							}}
 							className="font-general-medium 
-                                pl-3
-                                pr-1
+                              
                                 sm:px-4
                                 py-2
                                 border 
@@ -84,12 +92,12 @@ const ProjectsGrid = () => {
 							name="name"
 							type="search"
 							required=""
-							placeholder="Search Projects"
+							placeholder=" Search Projects"
 							aria-label="Name"
 						/>
 					</div>
 
-					<ProjectsFilter setSelectProject={setSelectProject} />
+					<ProjectsFilter  setSelectProject={setSelectProject} />
 				</div>
 			</div>
 
@@ -101,6 +109,7 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								id={project.id}
 							/>
 					  ))
 					: searchProject
@@ -110,6 +119,7 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								id={project.id}
 							/>
 					  ))
 					: projects.map((project) => (
@@ -118,6 +128,7 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								id={project.id}
 							/>
 					  ))}
 			</div>

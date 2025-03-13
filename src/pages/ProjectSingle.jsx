@@ -1,11 +1,22 @@
+import { useParams } from 'react-router-dom';
+import { singleProjectData  } from '../data/ProjectsData';
 import ProjectGallery from '../components/projects/ProjectGallery';
 import ProjectHeader from '../components/projects/ProjectHeader';
 import ProjectInfo from '../components/projects/ProjectInfo';
 import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects';
-import { SingleProjectProvider } from '../context/SingleProjectContext';
 import { motion } from 'framer-motion';
 
 const ProjectSingle = () => {
+	const { title } = useParams();
+	const project = singleProjectData.find((project) => {
+        const projectTitleUrl = project.ProjectHeader.title.replace(/\s+/g, '-').toLowerCase();
+        return projectTitleUrl === title;
+    });
+
+	if (!project) {
+		return <div>Project not found</div>;
+	}
+  	
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -17,12 +28,11 @@ const ProjectSingle = () => {
 			}}
 			className="container mx-auto mt-5 sm:mt-10"
 		>
-			<SingleProjectProvider>
-				<ProjectHeader />
-				<ProjectGallery />
-				<ProjectInfo />
-				<ProjectRelatedProjects />
-			</SingleProjectProvider>
+			<ProjectHeader project={project} /> 
+			<ProjectGallery project={project} /> 
+			<ProjectInfo project={project} /> 
+			<ProjectRelatedProjects project={project} />
+			
 		</motion.div>
 	);
 };
