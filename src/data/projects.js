@@ -9,25 +9,25 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
+		title: 'Poster Design',
+		category: 'Graphic Design',
 		img: WebImage2,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
+			title: 'Project Poster Design',
 			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			tags: 'Poster / Design',
 		},
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
+		title: 'PT. Duta Nusa Prima',
+		category: 'Logo Design',
 		img: MobileImage2,
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
+		title: 'Takoyaki Babon',
+		category: 'Logo and Branding Design',
 		img: UIImage1,
 	},
 	{
