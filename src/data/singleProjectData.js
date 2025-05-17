@@ -16,49 +16,39 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
+		title: 'Poster Design',
 		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
+		tags: 'Poster',
 	},
 	ProjectImages: [
 		{
 			id: 1,
-			title: 'Kabul Project Management UI',
+			title: 'Poster 1',
 			img: Image1,
 		},
 		{
 			id: 2,
-			title: 'Kabul Project Management UI',
+			title: 'Poster 2',
 			img: Image2,
 		},
 		{
 			id: 3,
-			title: 'Kabul Project Management UI',
+			title: 'Poster 3',
 			img: Image3,
 		},
 	],
 	ProjectInfo: {
-		ClientHeading: 'About Client',
+		ClientHeading: 'About',
 		CompanyInfo: [
 			{
 				id: 1,
 				title: 'Name',
-				details: 'Company Ltd',
+				details: 'Poster Design',
 			},
 			{
 				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
+				title: 'Tools',
+				details: 'Canva, Adobe Illustrator',
 			},
 		],
 		ObjectivesHeading: 'Objective',
