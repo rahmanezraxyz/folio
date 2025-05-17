@@ -1,8 +1,8 @@
 // Import images
-import WebImage1 from "../images/web-project-1.jpg";
+import WebImage1 from "../images/ptdnp.png";
 import WebImage2 from "../images/web-project-2.jpg";
 import MobileImage1 from "../images/mobile-project-1.jpg";
-import MobileImage2 from "../images/ptdnp3.png";
+import MobileImage2 from "../images/ptdnp2.png";
 import UIImage1 from "../images/ui-project-1.jpg";
 import UIImage2 from "../images/ui-project-2.jpg";
 import {
@@ -21,7 +21,7 @@ export const projectsData = [
     img: WebImage2,
     ProjectHeader: {
       title: "Project Poster Design",
-      publishDate: "Jul 26, 2021",
+      publishDate: "Jul 26, 2024",
       tags: "Poster / Design",
     },
     ProjectImages: [
@@ -55,13 +55,13 @@ export const projectsData = [
           details: "Canva, Adobe Illustrator",
         },
       ],
-      ObjectivesHeading: "Objective",
+      ObjectivesHeading: "For",
       ObjectivesDetails:
         "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
       Technologies: [
         {
-          title: "Tools & Technologies",
-          techs: ["Adobe Illustrator", "Photoshop", "Canva", "Figma"],
+          title: "Price",
+          techs: ["Start from Rp50.000"],
         },
       ],
       ProjectDetailsHeading: "Challenge",
@@ -122,7 +122,7 @@ export const projectsData = [
     img: MobileImage2,
     ProjectHeader: {
       title: "PT. Duta Nusa Prima Logo",
-      publishDate: "Aug 12, 2021",
+      publishDate: "Aug 12, 2024",
       tags: "Logo / Branding",
     },
     ProjectImages: [
@@ -133,7 +133,7 @@ export const projectsData = [
       },
       {
         id: 2,
-        title: "Logo Application",
+        title: "Logo more styles",
         img: WebImage1,
       },
     ],
@@ -148,7 +148,7 @@ export const projectsData = [
         {
           id: 2,
           title: "Services",
-          details: "Logo Design, Brand Identity",
+          details: "Contractor and Architecture",
         },
       ],
       ObjectivesHeading: "Objective",
