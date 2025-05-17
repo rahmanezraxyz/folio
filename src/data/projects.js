@@ -3,6 +3,7 @@ import WebImage1 from "../images/ptdnp.png";
 import WebImage2 from "../images/web-project-2.jpg";
 import MobileImage1 from "../images/mobile-project-1.jpg";
 import MobileImage2 from "../images/ptdnp2.png";
+import MobileImage3 from "../images/ptdnp3.png";
 import UIImage1 from "../images/ui-project-1.jpg";
 import UIImage2 from "../images/ui-project-2.jpg";
 import {
@@ -119,22 +120,22 @@ export const projectsData = [
     id: 2,
     title: "PT. Duta Nusa Prima",
     category: "Logo Design",
-    img: MobileImage2,
+    img: WebImage1,
     ProjectHeader: {
       title: "PT. Duta Nusa Prima Logo",
-      publishDate: "Aug 12, 2024",
+      publishDate: "Jan 12, 2024",
       tags: "Logo / Branding",
     },
     ProjectImages: [
       {
         id: 1,
         title: "Logo Design 1",
-        img: MobileImage2,
+        img: WebImage1,
       },
       {
         id: 2,
         title: "Logo more styles",
-        img: WebImage1,
+        img: MobileImage3,
       },
     ],
     ProjectInfo: {
@@ -157,7 +158,7 @@ export const projectsData = [
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: ["Adobe Illustrator", "Photoshop", "CorelDRAW"],
+          techs: ["Adobe Illustrator"],
         },
       ],
       ProjectDetailsHeading: "Project Details",
