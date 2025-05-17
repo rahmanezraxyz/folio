@@ -13,12 +13,12 @@ export const clientsHeading = 'Some of the brands that trust me';
 export const clientsData = [
 	{
 		id: 1,
-		title: 'Amazon',
+		title: 'PT. Duta Nusa Prima',
 		img: AmazonImage,
 	},
 	{
 		id: 2,
-		title: 'Sony',
+		title: 'Zalora',
 		img: SonyImage,
 	},
 	{
