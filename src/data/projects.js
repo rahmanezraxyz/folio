@@ -873,7 +873,7 @@ export const projectsData = [
         },
         {
           id: 5,
-          title: PT. MSD",
+          title: "PT. MSD",
           img: msd,
         },
       ],
@@ -883,7 +883,7 @@ export const projectsData = [
     id: 9,
     title: "Trandisewa Logo",
     category: "Logo",
-    img: trandi
+    img: trandi,
     ProjectHeader: {
       title: "Logo Design",
       publishDate: "Jul 26, 2024",
@@ -989,7 +989,7 @@ export const projectsData = [
     id: 10,
     title: "Jastip Logo",
     category: "Logo",
-    img: jastip
+    img: jastip,
     ProjectHeader: {
       title: "Logo Design",
       publishDate: "Jul 26, 2024",
