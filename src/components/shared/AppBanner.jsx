@@ -73,7 +73,8 @@ const AppBanner = () => {
 			>
 				<img
 					src={
-						activeTheme === 'dark' ? developerLight : developerDark
+						activeTheme === 'dark' ? developerDark : developerLight
+
 					}
 					alt="Developer"
 				/>
