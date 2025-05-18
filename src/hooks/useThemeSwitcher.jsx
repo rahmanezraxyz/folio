@@ -13,7 +13,6 @@ useEffect(() => {
 }, [theme, activeTheme]);
 
 return [activeTheme, setTheme];
-
 };
 
 export default useThemeSwitcher;
