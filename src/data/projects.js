@@ -641,7 +641,7 @@ export const projectsData = [
       {
         id: 1,
         title: "Poster 1",
-        img: nesa1,
+        img: nesa,
       },
       {
         id: 2,
