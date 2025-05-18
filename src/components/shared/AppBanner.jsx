@@ -5,7 +5,9 @@ import developerDark from '../../images/developer-01.png';
 import { motion } from 'framer-motion';
 
 const AppBanner = () => {
-	const [activeTheme] = useThemeSwitcher();
+	const [theme] = useThemeSwitcher();
+<img src={theme === 'dark' ? developerDark : developerLight} />
+
 
 	return (
 		<motion.section
