@@ -16,7 +16,7 @@ import msd2 from "../images/msd2.webp";
 import msd3 from "../images/msd3.webp";
 import takoyaki from "../images/takoyaki.png";
 import takoyaki2 from "../images/takoyaki2.png";
-import takoyaki3 from "../images/takoyaki3.png";
+import takoyaki3 from "../images/takoyaki3.jpg";
 import {
   FiFacebook,
   FiInstagram,
