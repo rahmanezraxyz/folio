@@ -23,7 +23,7 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-general-semibold text-6xl lg:text-7xl xl:text-8xl text-center sm:text-left text-ternary-dark dark:text-primary-light "
+					className="font-general-semibold text-3xl lg:text-2xl xl:text-1xl text-center sm:text-left text-ternary-dark dark:text-primary-light "
 				>
 					Grafisku.co.id by Rahman's
 				</motion.h1>
