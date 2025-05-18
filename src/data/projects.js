@@ -22,7 +22,7 @@ import nesa from "../images/nesa.jpg";
 import nesa2 from "../images/nesa2.png";
 import nesa3 from "../images/nesa3.png";
 import nesa4 from "../images/nesa4.png";
-import nesa5 from "../images/nesa5.png";
+import nesa5 from "../images/nesa5.jpg";
 import nesa6 from "../images/nesa6.jpg";
 import mikro from "../images/mikro.png";
 import mikro2 from "../images/mikro2.png";
