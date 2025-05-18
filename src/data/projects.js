@@ -4,7 +4,19 @@ import dnp2 from "../images/ptdnp2.png";
 import nkm2 from "../images/nkm2.png";
 import nkm from "../images/nkm.png";
 import nkm3 from "../images/nkm3.png";
-import poster1 from "../images/ui-project-2.jpg";
+import poster from "../images/poster.png";
+import poster1 from "../images/poster1.png";
+import poster2 from "../images/poster2.png";
+import poster3 from "../images/poster3.png";
+import ehw from "../images/ehw.webp";
+import ehw2 from "../images/ehw2.webp";
+import ehw3 from "../images/ehw3.webp";
+import msd from "../images/msd.webp";
+import msd2 from "../images/msd2.webp";
+import msd3 from "../images/msd3.webp";
+import takoyaki from "../images/takoyaki.png";
+import takoyaki2 from "../images/takoyaki2.png";
+import takoyaki3 from "../images/takoyaki3.png";
 import {
   FiFacebook,
   FiInstagram,
@@ -17,10 +29,10 @@ export const projectsData = [
   {
     id: 1,
     title: "Poster Design",
-    category: "Graphic Design",
-    img: WebImage2,
+    category: "Poster and Infographics",
+    img: poster,
     ProjectHeader: {
-      title: "Project Poster Design",
+      title: "Poster Design",
       publishDate: "Jul 26, 2024",
       tags: "Poster / Design",
     },
@@ -28,17 +40,17 @@ export const projectsData = [
       {
         id: 1,
         title: "Poster 1",
-        img: WebImage2,
+        img: poster1,
       },
       {
         id: 2,
         title: "Poster 2",
-        img: UIImage1,
+        img: poster2,
       },
       {
         id: 3,
         title: "Poster 3",
-        img: MobileImage1,
+        img: poster3,
       },
     ],
     ProjectInfo: {
@@ -105,12 +117,12 @@ export const projectsData = [
         {
           id: 2,
           title: "PT. Duta Nusa Prima",
-          img: WebImage1,
+          img: ptdnp3,
         },
         {
           id: 3,
           title: "Takoyaki Babon",
-          img: UIImage1,
+          img: takoyaki,
         },
       ],
     },
@@ -119,7 +131,7 @@ export const projectsData = [
     id: 2,
     title: "PT. Duta Nusa Prima",
     category: "Logo Design",
-    img: WebImage1,
+    img: ptdnp3,
     ProjectHeader: {
       title: "PT. Duta Nusa Prima Logo",
       publishDate: "Jan 12, 2024",
@@ -129,12 +141,12 @@ export const projectsData = [
       {
         id: 1,
         title: "Logo Design 1",
-        img: WebImage1,
+        img: ptdnp1,
       },
       {
         id: 2,
         title: "Logo more styles",
-        img: MobileImage3,
+        img: ptdnp2,
       },
     ],
     ProjectInfo: {
@@ -195,12 +207,12 @@ export const projectsData = [
         {
           id: 1,
           title: "Poster Design",
-          img: WebImage2,
+          img: poster,
         },
         {
           id: 3,
           title: "Takoyaki Babon",
-          img: UIImage1,
+          img: takoyaki,
         },
       ],
     },
@@ -209,27 +221,27 @@ export const projectsData = [
     id: 3,
     title: "NK Medika",
     category: "Logo and Branding Design",
-    img: MobileImage1,
+    img: nkm2,
     ProjectHeader: {
-      title: "Takoyaki Babon Brand Identity",
-      publishDate: "Sep 3, 2021",
-      tags: "Logo / Food / Branding",
+      title: "Apotek NK Medika Identity",
+      publishDate: "Sep 3, 2023",
+      tags: "Logo / Branding",
     },
     ProjectImages: [
       {
         id: 1,
         title: "Logo",
-        img: WebImage2,
+        img: nkm,
       },
       {
         id: 2,
         title: "Design",
-        img: Mobile Image1,
+        img: nkm2,
       },
       {
         id: 3,
         title: "Design",
-        img: UiImage1,
+        img: nkm3,
       },
     ],
     ProjectInfo: {
@@ -243,7 +255,7 @@ export const projectsData = [
         {
           id: 2,
           title: "Services",
-          details: "Logo Design, Brand Identity",
+          details: "Medics",
         },
       ],
       ObjectivesHeading: "Objective",
@@ -260,7 +272,7 @@ export const projectsData = [
         {
           id: 1,
           details:
-            "Apotek NK Medika is a new food business specializing in Japanese takoyaki with a local twist. The brand needed a complete identity that would appeal to young food enthusiasts.",
+            "NK Medika Pharmacy is a company engaged in the health and pharmaceutical industry, which has become the primary choice for the community in fulfilling their medication and healthcare needs. Known for its excellent reputation, NK Medika Pharmacy offers a variety of quality pharmaceutical products at affordable prices along with friendly and professional service.",
         },
         {
           id: 2,
@@ -290,36 +302,36 @@ export const projectsData = [
         {
           id: 1,
           title: "Poster Design",
-          img: WebImage2,
+          img: poster,
         },
         {
           id: 2,
           title: "PT. Duta Nusa Prima",
-          img: MobileImage2,
+          img: ptdnp3,
         },
       ],
     },
   },
   {
     id: 4,
-    title: "Cloud Storage Platform",
-    category: "UI/UX Design",
-    img: UIImage2,
+    title: "PT. EHW",
+    category: "Logo Design",
+    img: ehw,
     ProjectHeader: {
-      title: "Cloud Storage Platform UI/UX",
+      title: "Logo and Branding",
       publishDate: "Oct 15, 2021",
-      tags: "UI / UX / Web Design",
+      tags: "Logo",
     },
     ProjectImages: [
       {
         id: 1,
-        title: "Dashboard",
-        img: UIImage2,
+        title: "Logo1",
+        img: ehw2,
       },
       {
         id: 2,
-        title: "Mobile View",
-        img: MobileImage1,
+        title: "logo2",
+        img: ehw3,
       },
     ],
     ProjectInfo: {
@@ -328,12 +340,12 @@ export const projectsData = [
         {
           id: 1,
           title: "Company",
-          details: "CloudStore Tech",
+          details: "PT. EHW",
         },
         {
           id: 2,
           title: "Services",
-          details: "UI/UX Design, Web Design",
+          details: "Travel Comapny",
         },
       ],
       ObjectivesHeading: "Objective",
@@ -342,7 +354,7 @@ export const projectsData = [
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: ["Figma", "Adobe XD", "Sketch", "InVision"],
+          techs: ["Adobe Illustrator"],
         },
       ],
       ProjectDetailsHeading: "Project Details",
@@ -379,37 +391,42 @@ export const projectsData = [
       Projects: [
         {
           id: 5,
-          title: "React Social App",
-          img: MobileImage1,
+          title: "Takoyaki Babon",
+          img: takoyaki,
         },
         {
           id: 6,
-          title: "Apple Design System",
-          img: WebImage1,
+          title: "poster",
+          img: poster,
         },
       ],
     },
   },
   {
     id: 5,
-    title: "React Social App",
-    category: "Mobile Application",
-    img: MobileImage1,
+    title: "PT. MSD",
+    category: "Logo",
+    img: msd,
     ProjectHeader: {
-      title: "Social Media Mobile App",
-      publishDate: "Nov 5, 2021",
-      tags: "Mobile / React Native / UI",
+      title: "Logo Design",
+      publishDate: "Nov 5, 2024",
+      tags: "Logo / Brand",
     },
     ProjectImages: [
       {
         id: 1,
-        title: "App Screens",
-        img: MobileImage1,
+        title: "logo",
+        img: msd2,
       },
       {
         id: 2,
-        title: "User Profile",
-        img: UIImage2,
+        title: "logo mockup",
+        img: msd,
+      },
+       {
+        id: 3,
+        title: "logo",
+        img: msd3,
       },
     ],
     ProjectInfo: {
@@ -418,21 +435,21 @@ export const projectsData = [
         {
           id: 1,
           title: "Company",
-          details: "SocialConnect Inc.",
+          details: "PT. Multi Sumber Dingin",
         },
         {
           id: 2,
           title: "Services",
-          details: "Mobile App Development, UI Design",
+          details: "Air Conditioner Technology",
         },
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Develop a modern social media application with React Native that focuses on community building and user engagement.",
+        "Modern Logo",
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: ["React Native", "JavaScript", "Firebase", "Redux", "Figma"],
+          techs: ["Adobe Illustrator"],
         },
       ],
       ProjectDetailsHeading: "Project Details",
@@ -440,7 +457,7 @@ export const projectsData = [
         {
           id: 1,
           details:
-            "The social media app was designed to create meaningful connections between users with similar interests. The project involved designing and developing a complete mobile application from concept to deployment.",
+            "The logo and branding identity was designed to create meaningful connections between users with similar interests. The project involved designing and developing a complete mobile application from concept to deployment.",
         },
         {
           id: 2,
@@ -469,37 +486,42 @@ export const projectsData = [
       Projects: [
         {
           id: 4,
-          title: "Cloud Storage Platform",
-          img: UIImage2,
+          title: "PT. DNP",
+          img: ptdnp3,
         },
         {
           id: 6,
-          title: "Apple Design System",
-          img: WebImage1,
+          title: "ehw",
+          img: ehw,
         },
       ],
     },
   },
   {
     id: 6,
-    title: "Apple Design System",
-    category: "Web Application",
-    img: WebImage1,
+    title: "Takoyaki Babon Brand",
+    category: "Logo",
+    img: takoyaki,
     ProjectHeader: {
-      title: "Apple-inspired Design System",
+      title: "Takoyaki Branding",
       publishDate: "Dec 10, 2021",
-      tags: "Web / Design System / UI",
+      tags: "Branding / Logo",
     },
     ProjectImages: [
       {
         id: 1,
-        title: "Component Library",
-        img: WebImage1,
+        title: "Logo",
+        img: takoyaki,
       },
       {
         id: 2,
-        title: "Design Tokens",
-        img: UIImage1,
+        title: "Logo",
+        img: takoyaki2,
+      },
+       {
+        id: 3,
+        title: "Logo",
+        img: takoyaki3,
       },
     ],
     ProjectInfo: {
@@ -508,12 +530,12 @@ export const projectsData = [
         {
           id: 1,
           title: "Company",
-          details: "TechDesign Studio",
+          details: "Takoyaki Babon",
         },
         {
           id: 2,
           title: "Services",
-          details: "Design System, Component Library",
+          details: "Takoyaki's Food Store",
         },
       ],
       ObjectivesHeading: "Objective",
@@ -522,7 +544,7 @@ export const projectsData = [
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: ["HTML", "CSS", "JavaScript", "React", "Storybook", "Figma"],
+          techs: ["Adobe Illustrator, Photoshop"],
         },
       ],
       ProjectDetailsHeading: "Project Details",
@@ -565,13 +587,13 @@ export const projectsData = [
       Projects: [
         {
           id: 4,
-          title: "Cloud Storage Platform",
-          img: UIImage2,
+          title: "PT. MSD",
+          img: msd,
         },
         {
           id: 5,
-          title: "React Social App",
-          img: MobileImage1,
+          title: "PT. EHW",
+          img: EHW,
         },
       ],
     },
