@@ -1,11 +1,10 @@
 // Import images
-import WebImage1 from "../images/ptdnp3.png";
-import WebImage2 from "../images/nkm2.png";
-import MobileImage1 from "../images/nkm.png";
-import MobileImage2 from "../images/ptdnp2.png";
-import MobileImage3 from "../images/ptdnp3.png";
-import UIImage1 from "../images/nkm3.png";
-import UIImage2 from "../images/ui-project-2.jpg";
+import dnp3 from "../images/ptdnp3.png";
+import dnp2 from "../images/ptdnp2.png";
+import nkm2 from "../images/nkm2.png";
+import nkm from "../images/nkm.png";
+import nkm3 from "../images/nkm3.png";
+import poster1 from "../images/ui-project-2.jpg";
 import {
   FiFacebook,
   FiInstagram,
