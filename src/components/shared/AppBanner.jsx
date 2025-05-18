@@ -23,9 +23,9 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-general-semibold text-4xl lg:text-5xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
+					className="font-general-semibold text-4xl lg:text-5xl xl:text-6xl text-center sm:text-left text-inherit dark:text-primary-light"
 				>
-					<span className="text-orange-500">Grafisku.co.id</span>{' '}
+					<span className="text-orange-500 dark:text-orange-400">Grafisku.co.id</span>{' '}
 	by Rahman's
 				</motion.h1>
 				<motion.p
