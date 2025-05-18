@@ -3,7 +3,7 @@ import dnp3 from "../images/ptdnp3.png";
 import dnp2 from "../images/ptdnp2.png";
 import nkm2 from "../images/nkm2.png";
 import nkm from "../images/nkm.png";
-import nkm3 from "../images/nkm3.png";
+import nkm3 from "../images/nkm3.jpg";
 import poster from "../images/poster.png";
 import poster1 from "../images/poster1.png";
 import poster2 from "../images/poster2.png";
