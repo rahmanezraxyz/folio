@@ -18,6 +18,34 @@ import msd3 from "../images/msd3.webp";
 import takoyaki from "../images/takoyaki.png";
 import takoyaki2 from "../images/takoyaki2.png";
 import takoyaki3 from "../images/takoyaki3.jpg";
+import nesa from "../images/nesa.jpg";
+import nesa2 from "../images/nesa2.png";
+import nesa3 from "../images/nesa3.png";
+import nesa4 from "../images/nesa4.png";
+import nesa5 from "../images/nesa5.png";
+import nesa6 from "../images/nesa6.jpg";
+import mikro from "../images/mikro.png";
+import mikro2 from "../images/mikro2.png";
+import mikro3 from "../images/mikro3.png";
+import mikro4 from "../images/mikro4.png";
+import mikro5 from "../images/mikro5.png";
+import mikro6 from "../images/mikro6.png";
+import mikro7 from "../images/mikro7.png";
+import mikro8 from "../images/mikro8.png";
+import mikro9 from "../images/mikro9.png";
+import mikro10 from "../images/mikro10.png";
+import trandi from "../images/trandi.jpg";
+import trandi2 from "../images/trandi2.jpg";
+import trandi3 from "../images/trandi3.jpg";
+import trandi4 from "../images/trandi4.jpg";
+import jastip from "../images/jastip.png";
+import jastip2 from "../images/jastip2.png";
+import nsl from "../images/nsl.webp";
+import nsl2 from "../images/nsl2.webp";
+import nsl3 from "../images/nsl3.webp";
+import olenus from "../images/olenus.png";
+import olenus2 from "../images/olenus2.png";
+import olenus3 from "../images/olenus3.png";
 import {
   FiFacebook,
   FiInstagram,
@@ -595,6 +623,460 @@ export const projectsData = [
           id: 5,
           title: "PT. EHW",
           img: ehw,
+        },
+      ],
+    },
+  },
+  {
+    id: 7,
+    title: "Mascot Design",
+    category: "Mascot",
+    img: nesa,
+    ProjectHeader: {
+      title: "maskot",
+      publishDate: "Jul 26, 2024",
+      tags: "Mascot Design",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Poster 1",
+        img: nesa1,
+      },
+      {
+        id: 2,
+        title: "Poster 2",
+        img: nesa2,
+      },
+      {
+        id: 3,
+        title: "Poster 3",
+        img: nesa3,
+      },
+      {
+        id: 4,
+        title: "Poster 3",
+        img: nesa4,
+      },
+      {
+        id: 5,
+        title: "Poster 3",
+        img: nesa5,
+      },
+      {
+        id: 6,
+        title: "Poster 3",
+        img: nesa6,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Mascot",
+        },
+        {
+          id: 2,
+          title: "Tools",
+          details: "Adobe Illustrator",
+        },
+      ],
+      ObjectivesHeading: "For",
+      ObjectivesDetails:
+        "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
+      Technologies: [
+        {
+          title: "Price",
+          techs: ["Start from Rp150.000"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "The main challenge was to create a visually appealing design that would stand out while still maintaining the brand identity and conveying the key message effectively.",
+        },
+        {
+          id: 2,
+          details:
+            "Working within the constraints of print media while ensuring the design would translate well across different sizes and formats.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com/",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com/",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 6,
+          title: "Takoyaki Babon",
+          img: takoyaki,
+        },
+        {
+          id: 1,
+          title: "Poster Design",
+          img: poster,
+        },
+      ],
+    },
+  },
+  {
+    id: 8,
+    title: "Microblog",
+    category: "Poster and Infographics",
+    img: mikro
+    ProjectHeader: {
+      title: "Blog Design",
+      publishDate: "Jul 26, 2024",
+      tags: "Poster / Design",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Poster 1",
+        img: mikro,
+      },
+      {
+        id: 2,
+        title: "Poster 2",
+        img: mikro2,
+      },
+      {
+        id: 3,
+        title: "Poster 3",
+        img: mikro3,
+      },
+{
+        id: 4,
+        title: "Poster 3",
+        img: mikro4,
+      },
+{
+        id: 5,
+        title: "Poster 3",
+        img: mikro5,
+      },
+{
+        id: 6,
+        title: "Poster 3",
+        img: mikro6,
+      },
+{
+        id: 7,
+        title: "Poster 3",
+        img: mikro7,
+      },
+{
+        id: 8,
+        title: "Poster 3",
+        img: mikro8,
+      },
+{
+        id: 9,
+        title: "Poster 3",
+        img: mikro9,
+      },
+{
+        id: 10,
+        title: "Poster 3",
+        img: mikro10,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Microblog Project",
+        },
+        {
+          id: 2,
+          title: "Tools",
+          details: "Canva, Adobe Illustrator",
+        },
+      ],
+      ObjectivesHeading: "For",
+      ObjectivesDetails:
+        "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
+      Technologies: [
+        {
+          title: "Price",
+          techs: ["Start from Rp50.000"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "The main challenge was to create a visually appealing design that would stand out while still maintaining the brand identity and conveying the key message effectively.",
+        },
+        {
+          id: 2,
+          details:
+            "Working within the constraints of print media while ensuring the design would translate well across different sizes and formats.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com/",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com/",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 7,
+          title: "Mascot",
+          img: nesa,
+        },
+        {
+          id: 5,
+          title: PT. MSD",
+          img: msd,
+        },
+      ],
+    },
+  },
+        {
+    id: 9,
+    title: "Trandisewa Logo",
+    category: "Logo",
+    img: trandi
+    ProjectHeader: {
+      title: "Logo Design",
+      publishDate: "Jul 26, 2024",
+      tags: "Logo",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Poster 1",
+        img: trandi,
+      },
+      {
+        id: 2,
+        title: "Poster 2",
+        img: trandi2,
+      },
+      {
+        id: 3,
+        title: "Poster 3",
+        img: trandi3,
+      },
+{
+        id: 4,
+        title: "Poster 3",
+        img: trandi4,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: Branding Project",
+        },
+        {
+          id: 2,
+          title: "Tools",
+          details: "Canva, Adobe Illustrator",
+        },
+      ],
+      ObjectivesHeading: "For",
+      ObjectivesDetails:
+        "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
+      Technologies: [
+        {
+          title: "Price",
+          techs: ["Start from Rp50.000"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "The main challenge was to create a visually appealing design that would stand out while still maintaining the brand identity and conveying the key message effectively.",
+        },
+        {
+          id: 2,
+          details:
+            "Working within the constraints of print media while ensuring the design would translate well across different sizes and formats.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com/",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com/",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 5,
+          title: "PT. MSD",
+          img: ptdnp3,
+        },
+        {
+          id: 7,
+          title: "Mascot",
+          img: nesa,
+        },
+      ],
+    },
+  },
+        {
+    id: 10,
+    title: "Jastip Logo",
+    category: "Logo",
+    img: jastip
+    ProjectHeader: {
+      title: "Logo Design",
+      publishDate: "Jul 26, 2024",
+      tags: "Logo Design",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Poster 1",
+        img: jastip,
+      },
+      {
+        id: 2,
+        title: "Poster 2",
+        img: jastip2,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: Branding Project",
+        },
+        {
+          id: 2,
+          title: "Tools",
+          details: "Adobe Illustrator",
+        },
+      ],
+      ObjectivesHeading: "For",
+      ObjectivesDetails:
+        "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
+      Technologies: [
+        {
+          title: "Price",
+          techs: ["Start from Rp50.000"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "The main challenge was to create a visually appealing design that would stand out while still maintaining the brand identity and conveying the key message effectively.",
+        },
+        {
+          id: 2,
+          details:
+            "Working within the constraints of print media while ensuring the design would translate well across different sizes and formats.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com/",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com/",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 5,
+          title: "PT. MSD",
+          img: ptdnp3,
+        },
+        {
+          id: 9,
+          title: "Trandisewa",
+          img: trandi,
         },
       ],
     },
