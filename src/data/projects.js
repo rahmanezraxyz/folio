@@ -40,12 +40,6 @@ import trandi3 from "../images/trandi3.jpg";
 import trandi4 from "../images/trandi4.jpg";
 import jastip from "../images/jastip.png";
 import jastip2 from "../images/jastip2.png";
-import nsl from "../images/nsl.webp";
-import nsl2 from "../images/nsl2.webp";
-import nsl3 from "../images/nsl3.webp";
-import olenus from "../images/olenus.png";
-import olenus2 from "../images/olenus2.png";
-import olenus3 from "../images/olenus3.png";
 import {
   FiFacebook,
   FiInstagram,
