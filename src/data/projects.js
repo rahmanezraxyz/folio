@@ -1013,7 +1013,7 @@ export const projectsData = [
         {
           id: 1,
           title: "Name",
-          details: Branding Project",
+          details: "Branding Project",
         },
         {
           id: 2,
