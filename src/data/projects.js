@@ -1,10 +1,10 @@
 // Import images
-import WebImage1 from "../images/ptdnp.png";
-import WebImage2 from "../images/web-project-2.jpg";
-import MobileImage1 from "../images/mobile-project-1.jpg";
+import WebImage1 from "../images/ptdnp3.png";
+import WebImage2 from "../images/nkm2.png";
+import MobileImage1 from "../images/nkm.png";
 import MobileImage2 from "../images/ptdnp2.png";
 import MobileImage3 from "../images/ptdnp3.png";
-import UIImage1 from "../images/ui-project-1.jpg";
+import UIImage1 from "../images/nkm3.png";
 import UIImage2 from "../images/ui-project-2.jpg";
 import {
   FiFacebook,
@@ -106,7 +106,7 @@ export const projectsData = [
         {
           id: 2,
           title: "PT. Duta Nusa Prima",
-          img: MobileImage2,
+          img: WebImage1,
         },
         {
           id: 3,
@@ -208,9 +208,9 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Takoyaki Babon",
+    title: "NK Medika",
     category: "Logo and Branding Design",
-    img: UIImage1,
+    img: MobileImage1,
     ProjectHeader: {
       title: "Takoyaki Babon Brand Identity",
       publishDate: "Sep 3, 2021",
@@ -219,18 +219,18 @@ export const projectsData = [
     ProjectImages: [
       {
         id: 1,
-        title: "Takoyaki Logo",
-        img: UIImage1,
+        title: "Logo",
+        img: WebImage2,
       },
       {
         id: 2,
-        title: "Menu Design",
-        img: UIImage2,
+        title: "Design",
+        img: Mobile Image1,
       },
       {
         id: 3,
-        title: "Packaging",
-        img: WebImage2,
+        title: "Design",
+        img: UiImage1,
       },
     ],
     ProjectInfo: {
@@ -239,12 +239,12 @@ export const projectsData = [
         {
           id: 1,
           title: "Business",
-          details: "Takoyaki Babon",
+          details: "Apotek NK Medika",
         },
         {
           id: 2,
           title: "Services",
-          details: "Logo Design, Brand Identity, Packaging",
+          details: "Logo Design, Brand Identity",
         },
       ],
       ObjectivesHeading: "Objective",
@@ -253,7 +253,7 @@ export const projectsData = [
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: ["Adobe Illustrator", "Photoshop", "Figma", "Procreate"],
+          techs: ["Adobe Illustrator"],
         },
       ],
       ProjectDetailsHeading: "Project Details",
@@ -261,12 +261,12 @@ export const projectsData = [
         {
           id: 1,
           details:
-            "Takoyaki Babon is a new food business specializing in Japanese takoyaki with a local twist. The brand needed a complete identity that would appeal to young food enthusiasts.",
+            "Apotek NK Medika is a new food business specializing in Japanese takoyaki with a local twist. The brand needed a complete identity that would appeal to young food enthusiasts.",
         },
         {
           id: 2,
           details:
-            "The brand identity includes a playful logo, menu design, packaging, and social media templates that all work together to create a cohesive and memorable brand experience.",
+            "The brand identity includes a playful logo, menu design, and social media templates that all work together to create a cohesive and memorable brand experience.",
         },
       ],
       SocialSharingHeading: "Share This",
