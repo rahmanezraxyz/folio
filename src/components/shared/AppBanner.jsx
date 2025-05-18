@@ -25,7 +25,8 @@ const AppBanner = () => {
 					}}
 					className="font-general-semibold text-4xl lg:text-5xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
 				>
-					Grafisku.co.id by Rahman's
+					<span className="text-orange-500">Grafisku.co.id</span>{' '}
+	by Rahman's
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
