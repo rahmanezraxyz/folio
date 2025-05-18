@@ -747,7 +747,7 @@ export const projectsData = [
     id: 8,
     title: "Microblog",
     category: "Poster and Infographics",
-    img: mikro
+    img: mikro,
     ProjectHeader: {
       title: "Blog Design",
       publishDate: "Jul 26, 2024",
