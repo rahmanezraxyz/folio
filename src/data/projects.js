@@ -1,6 +1,7 @@
 // Import images
-import dnp3 from "../images/ptdnp3.png";
-import dnp2 from "../images/ptdnp2.png";
+import ptdnp3 from "../images/ptdnp3.png";
+import ptdnp2 from "../images/ptdnp2.png";
+import ptdnp1 from "../images/ptdnp.png";
 import nkm2 from "../images/nkm2.png";
 import nkm from "../images/nkm.png";
 import nkm3 from "../images/nkm3.jpg";
