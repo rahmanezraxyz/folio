@@ -1,4 +1,4 @@
-// Import images
+w// Import images
 import ptdnp3 from "../images/ptdnp3.png";
 import ptdnp2 from "../images/ptdnp2.png";
 import ptdnp1 from "../images/ptdnp.png";
@@ -594,7 +594,7 @@ export const projectsData = [
         {
           id: 5,
           title: "PT. EHW",
-          img: EHW,
+          img: ehw,
         },
       ],
     },
