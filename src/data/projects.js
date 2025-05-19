@@ -40,25 +40,6 @@ import trandi3 from "../images/trandi3.jpg";
 import trandi4 from "../images/trandi4.jpg";
 import jastip from "../images/jastip.png";
 import jastip2 from "../images/jastip2.png";
-import azura from "../images/azura.png";
-import azura2 from "../images/azura2.png";
-import azura3 from "../images/azura3.png";
-import ui from "../images/ui.png";
-import ui2 from "../images/ui2.png";
-import ui3 from "../images/ui3.png";
-import ui4 from "../images/ui4.png";
-import ui5 from "../images/ui5.png";
-import bestie from "../images/bestie.webp";
-import bestie2 from "../images/bestie2.webp";
-import bestie3 from "../images/bestie3.webp";
-import bestie4 from "../images/bestie4.webp";
-import bestie5 from "../images/bestie5.webp";
-import bestie6 from "../images/bestie6.webp";
-import bestie7 from "../images/bestie7.png";
-import triland from "../images/triland.png";
-import triland2 from "../images/triland2.png";
-import triland3 from "../images/triland3.png";
-import triland4 from "../images/triland4.png";
 import {
   FiFacebook,
   FiInstagram,
@@ -74,7 +55,7 @@ export const projectsData = [
     category: "Poster and Infographics",
     img: poster,
     ProjectHeader: {
-      title: "Poster and Infographic Design",
+      title: "Poster Design",
       publishDate: "Jul 26, 2024",
       tags: "Poster / Design",
     },
@@ -101,7 +82,7 @@ export const projectsData = [
         {
           id: 1,
           title: "Name",
-          details: "Poster and Infographic",
+          details: "Poster Design Project",
         },
         {
           id: 2,
@@ -109,13 +90,26 @@ export const projectsData = [
           details: "Canva, Adobe Illustrator",
         },
       ],
-      ObjectivesHeading: "Attention",
+      ObjectivesHeading: "For",
       ObjectivesDetails:
-        "Not intended for competition",
+        "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
       Technologies: [
         {
           title: "Price",
-          techs: ["Start from Rp50.000 / 5 USD"],
+          techs: ["Start from Rp50.000"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "The main challenge was to create a visually appealing design that would stand out while still maintaining the brand identity and conveying the key message effectively.",
+        },
+        {
+          id: 2,
+          details:
+            "Working within the constraints of print media while ensuring the design would translate well across different sizes and formats.",
         },
       ],
       SocialSharingHeading: "Share This",
@@ -289,7 +283,7 @@ export const projectsData = [
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "..",
+        "Create a fun, memorable brand identity for a new takoyaki food business that appeals to young customers and stands out in the competitive food market.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -335,7 +329,7 @@ export const projectsData = [
         },
         {
           id: 2,
-          title: "PT. Duta Nusa Prima Logo",
+          title: "PT. Duta Nusa Prima",
           img: ptdnp3,
         },
       ],
@@ -374,12 +368,12 @@ export const projectsData = [
         {
           id: 2,
           title: "Services",
-          details: "Travel Company",
+          details: "Travel Comapny",
         },
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Every logo I design is more than just an image — it’s a reflection of your brand’s soul. Let’s make it memorable.",
+        "Design an intuitive and user-friendly interface for a cloud storage platform that simplifies file management and sharing.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -391,8 +385,13 @@ export const projectsData = [
         {
           id: 1,
           details:
-            "Modern logo and Branding",
-        }
+            "The cloud storage platform needed a complete UI/UX overhaul to improve user experience and make complex file management tasks more intuitive.",
+        },
+        {
+          id: 2,
+          details:
+            "The design process included user research, wireframing, prototyping, and usability testing to ensure the final design met user needs and business goals.",
+        },
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
@@ -415,12 +414,12 @@ export const projectsData = [
       Projects: [
         {
           id: 5,
-          title: "Takoyaki Babon Logo",
+          title: "Takoyaki Babon",
           img: takoyaki,
         },
         {
-          id: 1,
-          title: "Poster and Infographic",
+          id: 6,
+          title: "poster",
           img: poster,
         },
       ],
@@ -429,7 +428,7 @@ export const projectsData = [
   {
     id: 5,
     title: "PT. MSD",
-    category: "Logo Design",
+    category: "Logo",
     img: msd,
     ProjectHeader: {
       title: "Logo Design",
@@ -467,7 +466,7 @@ export const projectsData = [
           details: "Air Conditioner Technology",
         },
       ],
-      ObjectivesHeading: "Style",
+      ObjectivesHeading: "Objective",
       ObjectivesDetails:
         "Modern Logo",
       Technologies: [
@@ -481,7 +480,12 @@ export const projectsData = [
         {
           id: 1,
           details:
-            "The logo and branding identity was designed to create meaningful connections between customers with similar interests. The project involved designing and developing a complete logo application from concept to deployment.",
+            "The logo and branding identity was designed to create meaningful connections between users with similar interests. The project involved designing and developing a complete mobile application from concept to deployment.",
+        },
+        {
+          id: 2,
+          details:
+            "Key features include user profiles, real-time messaging, content sharing, and community groups, all designed with a focus on user experience and performance.",
         },
       ],
       SocialSharingHeading: "Share This",
@@ -505,12 +509,12 @@ export const projectsData = [
       Projects: [
         {
           id: 4,
-          title: "PT. DNP Logo",
+          title: "PT. DNP",
           img: ptdnp3,
         },
         {
           id: 6,
-          title: "PT. EHW Logo",
+          title: "ehw",
           img: ehw,
         },
       ],
@@ -518,12 +522,12 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: "Takoyaki Babon Branding",
-    category: "Logo Design",
+    title: "Takoyaki Babon Brand",
+    category: "Logo",
     img: takoyaki,
     ProjectHeader: {
       title: "Takoyaki Branding",
-      publishDate: "Dec 10, 2024",
+      publishDate: "Dec 10, 2021",
       tags: "Branding / Logo",
     },
     ProjectImages: [
@@ -557,21 +561,26 @@ export const projectsData = [
           details: "Takoyaki's Food Store",
         },
       ],
-      ObjectivesHeading: "Style",
+      ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Modern and Fun.",
+        "Create a comprehensive design system inspired by Apple's aesthetic that can be used across multiple web applications to ensure consistency and efficiency.",
       Technologies: [
         {
           title: "Tools & Technologies",
           techs: ["Adobe Illustrator, Photoshop"],
         },
       ],
-      ProjectDetailsHeading: "Information",
+      ProjectDetailsHeading: "Project Details",
       ProjectDetails: [
         {
           id: 1,
           details:
-            "Every logo I design is more than just an image — it’s a reflection of your brand’s soul. Let’s make it memorable.",
+            "The design system project involved creating a complete library of reusable components, design tokens, and documentation that follows Apple's design principles while being adaptable for various web applications.",
+        },
+        {
+          id: 2,
+          details:
+            "The system includes typography, color palettes, spacing rules, component variants, and interactive states, all documented in Storybook for easy implementation by development teams.",
         },
       ],
       SocialSharingHeading: "Share This",
@@ -618,7 +627,7 @@ export const projectsData = [
     category: "Mascot",
     img: nesa,
     ProjectHeader: {
-      title: "Mascot Design",
+      title: "maskot",
       publishDate: "Jul 26, 2024",
       tags: "Mascot Design",
     },
@@ -670,11 +679,24 @@ export const projectsData = [
       ],
       ObjectivesHeading: "For",
       ObjectivesDetails:
-        "Mascot design is a powerful branding tool that helps create a unique and memorable identity for your business. A well-crafted mascot adds personality, emotion, and relatability to your brand, making it easier to connect with your audience on a deeper level. Whether used in logos, packaging, marketing materials, or social media content, a mascot can increase engagement, improve brand recognition, and make your message more fun and approachable. It transforms your brand into a character that people can remember and trust.",
+        "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
       Technologies: [
         {
           title: "Price",
           techs: ["Start from Rp150.000"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "The main challenge was to create a visually appealing design that would stand out while still maintaining the brand identity and conveying the key message effectively.",
+        },
+        {
+          id: 2,
+          details:
+            "Working within the constraints of print media while ensuring the design would translate well across different sizes and formats.",
         },
       ],
       SocialSharingHeading: "Share This",
@@ -704,7 +726,7 @@ export const projectsData = [
       Projects: [
         {
           id: 6,
-          title: "Takoyaki Babon Logo",
+          title: "Takoyaki Babon",
           img: takoyaki,
         },
         {
@@ -717,11 +739,11 @@ export const projectsData = [
   },
   {
     id: 8,
-    title: "Microblog Design",
+    title: "Microblog",
     category: "Poster and Infographics",
     img: mikro,
     ProjectHeader: {
-      title: "Microblog Design",
+      title: "Blog Design",
       publishDate: "Jul 26, 2024",
       tags: "Poster / Design",
     },
@@ -741,37 +763,37 @@ export const projectsData = [
         title: "Poster 3",
         img: mikro3,
       },
-      {
+{
         id: 4,
         title: "Poster 3",
         img: mikro4,
       },
-      {
+{
         id: 5,
         title: "Poster 3",
         img: mikro5,
       },
-      {
+{
         id: 6,
         title: "Poster 3",
         img: mikro6,
       },
-      {
+{
         id: 7,
         title: "Poster 3",
         img: mikro7,
       },
-      {
+{
         id: 8,
         title: "Poster 3",
         img: mikro8,
       },
-      {
+{
         id: 9,
         title: "Poster 3",
         img: mikro9,
       },
-      {
+{
         id: 10,
         title: "Poster 3",
         img: mikro10,
@@ -791,13 +813,26 @@ export const projectsData = [
           details: "Canva, Adobe Illustrator",
         },
       ],
-      ObjectivesHeading: "Price",
+      ObjectivesHeading: "For",
       ObjectivesDetails:
-        "Start from Rp50.000",
+        "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
       Technologies: [
         {
-          title: "Facilities",
-          techs: ["Free Revision"],
+          title: "Price",
+          techs: ["Start from Rp50.000"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "The main challenge was to create a visually appealing design that would stand out while still maintaining the brand identity and conveying the key message effectively.",
+        },
+        {
+          id: 2,
+          details:
+            "Working within the constraints of print media while ensuring the design would translate well across different sizes and formats.",
         },
       ],
       SocialSharingHeading: "Share This",
@@ -827,24 +862,24 @@ export const projectsData = [
       Projects: [
         {
           id: 7,
-          title: "Mascot Design",
+          title: "Mascot",
           img: nesa,
         },
         {
           id: 5,
-          title: "PT. MSD Logo",
+          title: "PT. MSD",
           img: msd,
         },
       ],
     },
   },
-    {
+        {
     id: 9,
     title: "Trandisewa Logo",
-    category: "Logo Design",
+    category: "Logo",
     img: trandi,
     ProjectHeader: {
-      title: "Trandisewa Logo Design",
+      title: "Logo Design",
       publishDate: "Jul 26, 2024",
       tags: "Logo",
     },
@@ -864,7 +899,7 @@ export const projectsData = [
         title: "Poster 3",
         img: trandi3,
       },
-      {
+{
         id: 4,
         title: "Poster 3",
         img: trandi4,
@@ -876,7 +911,7 @@ export const projectsData = [
         {
           id: 1,
           title: "Name",
-          details: "Trandisewa Branding Project",
+          details: "Branding Project",
         },
         {
           id: 2,
@@ -886,19 +921,24 @@ export const projectsData = [
       ],
       ObjectivesHeading: "For",
       ObjectivesDetails:
-        "Create an eye-catching logo for a marketing campaign that effectively communicates the brand message.",
+        "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
       Technologies: [
         {
           title: "Price",
           techs: ["Start from Rp50.000"],
         },
       ],
-      ProjectDetailsHeading: "Facilities",
+      ProjectDetailsHeading: "Challenge",
       ProjectDetails: [
         {
           id: 1,
           details:
-            "Free Revision",
+            "The main challenge was to create a visually appealing design that would stand out while still maintaining the brand identity and conveying the key message effectively.",
+        },
+        {
+          id: 2,
+          details:
+            "Working within the constraints of print media while ensuring the design would translate well across different sizes and formats.",
         },
       ],
       SocialSharingHeading: "Share This",
@@ -928,12 +968,12 @@ export const projectsData = [
       Projects: [
         {
           id: 5,
-          title: "PT. MSD Logo",
+          title: "PT. MSD",
           img: ptdnp3,
         },
         {
           id: 7,
-          title: "Mascot Design",
+          title: "Mascot",
           img: nesa,
         },
       ],
@@ -942,7 +982,7 @@ export const projectsData = [
         {
     id: 10,
     title: "Jastip Logo",
-    category: "Logo Design",
+    category: "Logo",
     img: jastip,
     ProjectHeader: {
       title: "Logo Design",
@@ -975,13 +1015,26 @@ export const projectsData = [
           details: "Adobe Illustrator",
         },
       ],
-      ObjectivesHeading: "Details",
+      ObjectivesHeading: "For",
       ObjectivesDetails:
-        "Create an eye-catching logo for a marketing campaign that effectively communicates the brand message.",
+        "Create an eye-catching poster design for a marketing campaign that effectively communicates the brand message.",
       Technologies: [
         {
           title: "Price",
           techs: ["Start from Rp50.000"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "The main challenge was to create a visually appealing design that would stand out while still maintaining the brand identity and conveying the key message effectively.",
+        },
+        {
+          id: 2,
+          details:
+            "Working within the constraints of print media while ensuring the design would translate well across different sizes and formats.",
         },
       ],
       SocialSharingHeading: "Share This",
@@ -1011,400 +1064,13 @@ export const projectsData = [
       Projects: [
         {
           id: 5,
-          title: "PT. MSD Logo",
+          title: "PT. MSD",
           img: ptdnp3,
         },
         {
           id: 9,
-          title: "Trandisewa Logo",
+          title: "Trandisewa",
           img: trandi,
-        },
-      ],
-    },
-  },
-  {
-    id: 11,
-    title: "Triland Logo and Branding",
-    category: "Logo Design",
-    img: triland,
-    ProjectHeader: {
-      title: "Logo Design",
-      publishDate: "Jul 26, 2024",
-      tags: "Logo Design",
-    },
-    ProjectImages: [
-      {
-        id: 1,
-        title: "Poster 1",
-        img: triland,
-      },
-      {
-        id: 2,
-        title: "Poster 2",
-        img: triland2,
-      },
-      {
-        id: 3,
-        title: "Poster 2",
-        img: triland3,
-      },
-      {
-        id: 4,
-        title: "Poster 2",
-        img: triland4,
-      },
-    ],
-    ProjectInfo: {
-      ClientHeading: "About",
-      CompanyInfo: [
-        {
-          id: 1,
-          title: "Name",
-          details: "Triland Branding Project",
-        },
-        {
-          id: 2,
-          title: "Tools",
-          details: "Adobe Illustrator",
-        },
-      ],
-      ObjectivesHeading: "Details",
-      ObjectivesDetails:
-        "Create an eye-catching logo for a marketing campaign that effectively communicates the brand message.",
-      Technologies: [
-        {
-          title: "Price",
-          techs: ["Start from Rp50.000"],
-        },
-      ],
-      SocialSharingHeading: "Share This",
-      SocialSharing: [
-        {
-          id: 1,
-          name: "Twitter",
-          icon: <FiTwitter />,
-          url: "https://twitter.com/",
-        },
-        {
-          id: 2,
-          name: "Instagram",
-          icon: <FiInstagram />,
-          url: "https://instagram.com/",
-        },
-        {
-          id: 3,
-          name: "Facebook",
-          icon: <FiFacebook />,
-          url: "https://facebook.com/",
-        },
-      ],
-    },
-    RelatedProject: {
-      title: "Related Projects",
-      Projects: [
-        {
-          id: 5,
-          title: "PT. MSD Logo",
-          img: ptdnp3,
-        },
-        {
-          id: 9,
-          title: "Trandisewa Logo",
-          img: trandi,
-        },
-      ],
-    },
-  },
-  {
-    id: 12,
-    title: "Packaging and Branding",
-    category: "Packaging Design",
-    img: azura,
-    ProjectHeader: {
-      title: "Basreng Azura Packaging Design",
-      publishDate: "Jul 28, 2024",
-      tags: "Packaging Design",
-    },
-    ProjectImages: [
-      {
-        id: 1,
-        title: "Poster 1",
-        img: azura,
-      },
-      {
-        id: 2,
-        title: "Poster 2",
-        img: azura2,
-      },
-      {
-        id: 3,
-        title: "Poster 2",
-        img: azura3,
-      },
-    ],
-    ProjectInfo: {
-      ClientHeading: "About",
-      CompanyInfo: [
-        {
-          id: 1,
-          title: "Name",
-          details: "Azura Packaging Design",
-        },
-        {
-          id: 2,
-          title: "Tools",
-          details: "Adobe Illustrator",
-        },
-      ],
-      ObjectivesHeading: "Details",
-      ObjectivesDetails:
-        "Create an eye-catching logo for a marketing campaign that effectively communicates the brand message.",
-      Technologies: [
-        {
-          title: "Price",
-          techs: ["Start from Rp50.000"],
-        },
-      ],
-      SocialSharingHeading: "Share This",
-      SocialSharing: [
-        {
-          id: 1,
-          name: "Twitter",
-          icon: <FiTwitter />,
-          url: "https://twitter.com/",
-        },
-        {
-          id: 2,
-          name: "Instagram",
-          icon: <FiInstagram />,
-          url: "https://instagram.com/",
-        },
-        {
-          id: 3,
-          name: "Facebook",
-          icon: <FiFacebook />,
-          url: "https://facebook.com/",
-        },
-      ],
-    },
-    RelatedProject: {
-      title: "Related Projects",
-      Projects: [
-        {
-          id: 10,
-          title: "Jastip Logo",
-          img: jastip,
-        },
-        {
-          id: 9,
-          title: "Trandisewa Logo",
-          img: trandi,
-        },
-      ],
-    },
-  },
-  {
-    id: 13,
-    title: "Bestie Logo and Branding",
-    category: "Logo Design",
-    img: bestie,
-    ProjectHeader: {
-      title: "Bestie Logo Design",
-      publishDate: "Jul 26, 2024",
-      tags: "Logo Design",
-    },
-    ProjectImages: [
-      {
-        id: 1,
-        title: "Poster 1",
-        img: bestie,
-      },
-      {
-        id: 2,
-        title: "Poster 2",
-        img: bestie2,
-      },
-      {
-        id: 3,
-        title: "Poster 2",
-        img: bestie3,
-      },
-      {
-        id: 4,
-        title: "Poster 2",
-        img: bestie4,
-      },
-      {
-        id: 5,
-        title: "Poster 2",
-        img: bestie5,
-      },
-      {
-        id: 6,
-        title: "Poster 2",
-        img: bestie6,
-      },
-      {
-        id: 7,
-        title: "Poster 2",
-        img: bestie7,
-      },
-    ],
-    ProjectInfo: {
-      ClientHeading: "About",
-      CompanyInfo: [
-        {
-          id: 1,
-          title: "Name",
-          details: "Bestie Branding Project",
-        },
-        {
-          id: 2,
-          title: "Tools",
-          details: "Adobe Illustrator, Canva",
-        },
-      ],
-      ObjectivesHeading: "Details",
-      ObjectivesDetails:
-        "Create an eye-catching logo for a marketing campaign that effectively communicates the brand message.",
-      Technologies: [
-        {
-          title: "Price",
-          techs: ["Start from Rp80.000"],
-        },
-      ],
-      SocialSharingHeading: "Share This",
-      SocialSharing: [
-        {
-          id: 1,
-          name: "Twitter",
-          icon: <FiTwitter />,
-          url: "https://twitter.com/",
-        },
-        {
-          id: 2,
-          name: "Instagram",
-          icon: <FiInstagram />,
-          url: "https://instagram.com/",
-        },
-        {
-          id: 3,
-          name: "Facebook",
-          icon: <FiFacebook />,
-          url: "https://facebook.com/",
-        },
-      ],
-    },
-    RelatedProject: {
-      title: "Related Projects",
-      Projects: [
-        {
-          id: 5,
-          title: "PT. MSD Logo",
-          img: ptdnp3,
-        },
-        {
-          id: 1,
-          title: "Poster and Infographic",
-          img: poster,
-        },
-      ],
-    },
-  },
-  {
-    id: 14,
-    title: "UI Design",
-    category: "UI and UX Design",
-    img: ui,
-    ProjectHeader: {
-      title: "UI/UX Design",
-      publishDate: "Jul 26, 2024",
-      tags: "UI Design",
-    },
-    ProjectImages: [
-      {
-        id: 1,
-        title: "Poster 1",
-        img: ui,
-      },
-      {
-        id: 2,
-        title: "Poster 2",
-        img: ui2,
-      },
-      {
-        id: 3,
-        title: "Poster 2",
-        img: ui3,
-      },
-      {
-        id: 4,
-        title: "Poster 2",
-        img: ui4,
-      },
-      {
-        id: 5,
-        title: "Poster 2",
-        img: ui5,
-      },
-    ],
-    ProjectInfo: {
-      ClientHeading: "About",
-      CompanyInfo: [
-        {
-          id: 1,
-          title: "Name",
-          details: "UI Apps Project",
-        },
-        {
-          id: 2,
-          title: "Tools",
-          details: "Adobe Illustrator, Canva",
-        },
-      ],
-      ObjectivesHeading: "Details",
-      ObjectivesDetails:
-        "Create an eye-catching UI Mobile Design for a marketing campaign that effectively communicates the brand message.",
-      Technologies: [
-        {
-          title: "Price",
-          techs: ["Start from Rp50.000"],
-        },
-      ],
-      SocialSharingHeading: "Share This",
-      SocialSharing: [
-        {
-          id: 1,
-          name: "Twitter",
-          icon: <FiTwitter />,
-          url: "https://twitter.com/",
-        },
-        {
-          id: 2,
-          name: "Instagram",
-          icon: <FiInstagram />,
-          url: "https://instagram.com/",
-        },
-        {
-          id: 3,
-          name: "Facebook",
-          icon: <FiFacebook />,
-          url: "https://facebook.com/",
-        },
-      ],
-    },
-    RelatedProject: {
-      title: "Related Projects",
-      Projects: [
-        {
-          id: 5,
-          title: "PT. MSD Logo",
-          img: ptdnp3,
-        },
-        {
-          id: 1,
-          title: "Poster and Infographic",
-          img: poster,
         },
       ],
     },
