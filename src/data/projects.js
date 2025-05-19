@@ -678,7 +678,6 @@ export const projectsData = [
           title: "Price",
           techs: ["Start from Rp150.000"],
         },
-      
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
@@ -744,37 +743,37 @@ export const projectsData = [
         title: "Poster 3",
         img: mikro3,
       },
-{
+      {
         id: 4,
         title: "Poster 3",
         img: mikro4,
       },
-{
+      {
         id: 5,
         title: "Poster 3",
         img: mikro5,
       },
-{
+      {
         id: 6,
         title: "Poster 3",
         img: mikro6,
       },
-{
+      {
         id: 7,
         title: "Poster 3",
         img: mikro7,
       },
-{
+      {
         id: 8,
         title: "Poster 3",
         img: mikro8,
       },
-{
+      {
         id: 9,
         title: "Poster 3",
         img: mikro9,
       },
-{
+      {
         id: 10,
         title: "Poster 3",
         img: mikro10,
@@ -802,7 +801,6 @@ export const projectsData = [
           title: "Facilities",
           techs: ["Free Revision"],
         },
-      
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
@@ -842,7 +840,7 @@ export const projectsData = [
       ],
     },
   },
-        {
+    {
     id: 9,
     title: "Trandisewa Logo",
     category: "Logo Design",
@@ -868,7 +866,7 @@ export const projectsData = [
         title: "Poster 3",
         img: trandi3,
       },
-{
+      {
         id: 4,
         title: "Poster 3",
         img: trandi4,
@@ -904,7 +902,6 @@ export const projectsData = [
           details:
             "Free Revision",
         },
-  
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
@@ -1082,7 +1079,6 @@ export const projectsData = [
           title: "Price",
           techs: ["Start from Rp50.000"],
         },
-      
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
@@ -1280,7 +1276,6 @@ export const projectsData = [
           title: "Price",
           techs: ["Start from Rp80.000"],
         },
-      
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
