@@ -1032,7 +1032,7 @@ export const projectsData = [
     id: 11,
     title: "Triland Logo and Branding",
     category: "Logo Design",
-    img: jastip,
+    img: triland,
     ProjectHeader: {
       title: "Logo Design",
       publishDate: "Jul 26, 2024",
@@ -1130,7 +1130,7 @@ export const projectsData = [
     ProjectHeader: {
       title: "Basreng Azura Packaging Design",
       publishDate: "Jul 28, 2024",
-      tags: "Pckaging Design",
+      tags: "Packaging Design",
     },
     ProjectImages: [
       {
