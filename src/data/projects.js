@@ -1119,7 +1119,7 @@ export const projectsData = [
     },
   },
   {
-    id: 11,
+    id: 12,
     title: "Packaging and Branding",
     category: "Packaging Design",
     img: azura,
@@ -1208,7 +1208,7 @@ export const projectsData = [
     },
   },
   {
-    id: 12,
+    id: 13,
     title: "Bestie Logo and Branding",
     category: "Logo Design",
     img: bestie,
@@ -1316,7 +1316,7 @@ export const projectsData = [
     },
   },
   {
-    id: 13,
+    id: 14,
     title: "UI Design",
     category: "UI and UX Design",
     img: ui,
