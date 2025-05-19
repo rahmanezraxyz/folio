@@ -985,7 +985,6 @@ export const projectsData = [
           title: "Price",
           techs: ["Start from Rp50.000"],
         },
-      
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
@@ -1167,7 +1166,6 @@ export const projectsData = [
           title: "Price",
           techs: ["Start from Rp50.000"],
         },
-      
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
@@ -1374,7 +1372,6 @@ export const projectsData = [
           title: "Price",
           techs: ["Start from Rp50.000"],
         },
-      
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
