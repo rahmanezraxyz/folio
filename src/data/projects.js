@@ -1322,7 +1322,7 @@ export const projectsData = [
   },
   {
     id: 13,
-    title: UI Design",
+    title: "UI Design",
     category: "UI and UX Design",
     img: ui,
     ProjectHeader: {
