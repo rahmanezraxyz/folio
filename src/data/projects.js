@@ -483,7 +483,6 @@ export const projectsData = [
           details:
             "The logo and branding identity was designed to create meaningful connections between customers with similar interests. The project involved designing and developing a complete logo application from concept to deployment.",
         },
-        
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
@@ -574,7 +573,6 @@ export const projectsData = [
           details:
             "Every logo I design is more than just an image — it’s a reflection of your brand’s soul. Let’s make it memorable.",
         },
-        
       ],
       SocialSharingHeading: "Share This",
       SocialSharing: [
