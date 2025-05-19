@@ -1,7 +1,7 @@
 // Import images
 import Image1 from '../images/mikro.png';
 import Image2 from '../images/mikro1.png';
-import Image3 from '../images/mikro#.png';
+import Image3 from '../images/mikro2.png';
 import Image4 from '../images/mikro3.png';
 import Image5 from '../images/mikro4.png';
 import Image6 from '../images/mikro5.png';
