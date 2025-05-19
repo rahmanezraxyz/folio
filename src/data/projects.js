@@ -1225,7 +1225,7 @@ export const projectsData = [
       {
         id: 1,
         title: "Poster 1",
-        img: bestie1,
+        img: bestie,
       },
       {
         id: 2,
